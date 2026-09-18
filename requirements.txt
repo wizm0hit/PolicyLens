@@ -1,0 +1,9 @@
+pymupdf
+scikit-learn
+sentence-transformers
+numpy
+joblib
+google-genai
+python-dotenv
+fastapi
+uvicorn[standard]

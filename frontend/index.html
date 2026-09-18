@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Policy Lens — Hospital Policy Intelligence. Get grounded answers from official hospital policy documents instantly." />
+  <meta name="robots" content="noindex" />
+  <title>Policy Lens — Hospital Policy Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+<div class="app-shell">
+
+  <!-- Sidebar overlay (mobile) -->
+  <div class="sidebar-overlay" id="sidebar-overlay" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       SIDEBAR
+  ============================================================ -->
+  <aside class="sidebar" id="sidebar" role="navigation" aria-label="Main navigation">
+
+    <!-- Brand -->
+    <div class="sidebar-brand">
+      <div class="sidebar-brand-icon" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+          <path d="M11 8v6M8 11h6"/>
+        </svg>
+      </div>
+      <div class="sidebar-brand-text">
+        <h1>Policy Lens</h1>
+        <span>Hospital Policy Intelligence</span>
+      </div>
+    </div>
+
+    <!-- New conversation button -->
+    <div class="sidebar-new-conv">
+      <button class="new-conv-btn" id="new-conv-btn" aria-label="Start new conversation">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 5v14M5 12h14"/>
+        </svg>
+        New conversation
+      </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="sidebar-nav" aria-label="Application sections">
+      <p class="sidebar-nav-label">Navigation</p>
+
+      <button class="nav-item active" data-page="ask" aria-label="Ask Policy Lens">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>
+        </svg>
+        Ask Policy Lens
+      </button>
+
+      <button class="nav-item" data-page="library" aria-label="Policy Library">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/>
+        </svg>
+        Policy Library
+        <span class="nav-badge" id="nav-doc-count">10</span>
+      </button>
+
+      <button class="nav-item" data-page="how" aria-label="How It Works">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/>
+        </svg>
+        How It Works
+      </button>
+
+      <button class="nav-item" data-page="eval" aria-label="Evaluation">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="12" x2="12" y1="20" y2="10"/><line x1="18" x2="18" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="16"/>
+        </svg>
+        Evaluation
+      </button>
+    </nav>
+
+    <!-- Chat history -->
+    <div class="sidebar-history" id="sidebar-history" aria-label="Conversation history">
+      <!-- Rendered by JS -->
+    </div>
+
+    <!-- Footer -->
+    <div class="sidebar-footer">
+      <div class="sidebar-footer-text">
+        <strong>Administrative Policy Assistant</strong>
+        Grounded in hospital policy documents
+      </div>
+    </div>
+
+  </aside><!-- /sidebar -->
+
+  <!-- ============================================================
+       MAIN CONTENT
+  ============================================================ -->
+  <div class="main-content">
+
+    <!-- Top Header -->
+    <header class="top-header" role="banner">
+      <div class="header-left">
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open navigation menu" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/>
+          </svg>
+        </button>
+        <div>
+          <div class="header-title">Policy Lens</div>
+          <div class="header-subtitle">Hospital Policy Intelligence</div>
+        </div>
+      </div>
+
+      <div class="header-right">
+        <!-- Document count -->
+        <div class="tooltip-wrap">
+          <div class="doc-count-badge" aria-label="Documents indexed">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/>
+            </svg>
+            <span id="doc-count">10 documents indexed</span>
+          </div>
+          <div class="tooltip" role="tooltip">Policy documents indexed and ready</div>
+        </div>
+
+        <!-- System status -->
+        <div class="tooltip-wrap">
+          <div class="status-badge" role="status" aria-live="polite" id="status-badge">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span class="status-text" id="status-text">System operational</span>
+          </div>
+          <div class="tooltip" role="tooltip" id="status-tooltip">Backend connected</div>
+        </div>
+
+        <!-- Help -->
+        <div class="tooltip-wrap">
+          <button class="icon-btn" data-page="how" aria-label="How Policy Lens works" id="help-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/>
+            </svg>
+          </button>
+          <div class="tooltip" role="tooltip">Learn how Policy Lens works</div>
+        </div>
+
+        <!-- Theme toggle -->
+        <div class="tooltip-wrap">
+          <button class="icon-btn" id="theme-toggle-btn" aria-label="Toggle dark mode">
+            <!-- Icon injected by JS -->
+          </button>
+          <div class="tooltip" role="tooltip">Switch appearance</div>
+        </div>
+      </div>
+    </header><!-- /top-header -->
+
+    <!-- Page Container -->
+    <div class="page-container" role="main">
+
+      <!-- ====================================================
+           PAGE: ASK POLICY LENS (Chat)
+      ==================================================== -->
+      <section class="page-section active" id="page-ask" aria-label="Ask Policy Lens">
+
+        <!-- Empty state — shown when no conversation -->
+        <div class="empty-state" id="empty-state">
+          <div class="empty-state-inner">
+            <div class="empty-state-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+                <path d="M11 8v6M8 11h6"/>
+              </svg>
+            </div>
+            <h2>Find answers in hospital policy.</h2>
+            <p>Ask administrative questions and get answers grounded in official hospital policy documents — with full source attribution.</p>
+            <div class="empty-topics">
+              <span>Admission</span><span>Billing</span><span>Insurance</span>
+              <span>Visitors</span><span>Discharge</span><span>Records</span><span>Appointments</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Conversation area — grows as messages are added -->
+        <div class="conversation-area" id="conversation-area" aria-live="polite" aria-label="Conversation">
+          <!-- Messages rendered by JS -->
+        </div>
+
+        <!-- Loading state -->
+        <div class="loading-state" id="loading-state" role="status" aria-live="assertive" aria-label="Loading" aria-hidden="true">
+          <div class="loading-spinner" aria-hidden="true">
+            <div class="spinner-ring"></div>
+          </div>
+          <p class="loading-message" id="loading-message">Searching policies…</p>
+          <p class="loading-sub" id="loading-sub">Please wait</p>
+        </div>
+
+        <!-- Input area — always visible at bottom -->
+        <div class="input-area" id="input-area">
+          <!-- Safety notice -->
+          <div class="scope-notice" role="note" aria-label="Scope notice">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/>
+            </svg>
+            <span><strong>Scope:</strong> Administrative policy information only. Not medical advice.</span>
+          </div>
+
+          <!-- Question input box -->
+          <div class="question-box" id="question-box">
+            <label for="question-input" class="visually-hidden">Ask a hospital policy question</label>
+            <textarea
+              id="question-input"
+              rows="1"
+              placeholder="Ask about admission, billing, insurance, visitors, discharge, records…"
+              aria-label="Hospital policy question"
+              maxlength="1000"
+              autocomplete="off"
+              spellcheck="true"
+            ></textarea>
+            <div class="question-box-actions">
+              <span class="char-count" id="char-count" aria-live="polite">0 / 1000</span>
+              <button class="send-btn" id="submit-btn" aria-label="Send question">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/>
+                </svg>
+                <span>Ask</span>
+              </button>
+            </div>
+            <div class="question-hint">Press <kbd>Enter</kbd> to submit &middot; <kbd>Shift+Enter</kbd> for new line</div>
+          </div>
+
+          <!-- Suggestion chips -->
+          <div class="suggestions-area">
+            <p class="suggestions-label">Try asking</p>
+            <div class="suggestions-chips" id="suggestions-chips" role="list" aria-label="Suggested questions">
+              <!-- Rendered by JS -->
+            </div>
+          </div>
+        </div>
+
+      </section><!-- /page-ask -->
+
+      <!-- ====================================================
+           PAGE: POLICY LIBRARY
+      ==================================================== -->
+      <section class="page-section" id="page-library" aria-label="Policy Library">
+        <div class="page-header">
+          <h2>Policy Library</h2>
+          <p>Official hospital policy documents indexed and available for retrieval.</p>
+        </div>
+        <div class="policy-grid" id="policy-grid" role="list" aria-label="Policy documents">
+          <!-- Rendered by JS -->
+        </div>
+      </section>
+
+      <!-- ====================================================
+           PAGE: HOW IT WORKS
+      ==================================================== -->
+      <section class="page-section" id="page-how" aria-label="How Policy Lens works">
+        <div class="page-header">
+          <h2>How Policy Lens Works</h2>
+          <p>A Retrieval-Augmented Generation (RAG) pipeline grounded entirely in hospital policy documents.</p>
+        </div>
+        <div class="pipeline-steps" id="pipeline-steps" role="list" aria-label="RAG pipeline steps">
+          <!-- Rendered by JS -->
+        </div>
+      </section>
+
+      <!-- ====================================================
+           PAGE: EVALUATION
+      ==================================================== -->
+      <section class="page-section" id="page-eval" aria-label="Evaluation">
+        <div class="page-header">
+          <h2>Evaluation</h2>
+          <p>Policy Lens is evaluated using a curated set of supported, paraphrased, and unsupported policy questions.</p>
+        </div>
+
+        <!-- System config cards (real data only) -->
+        <div class="eval-config-grid" id="eval-config-grid">
+          <!-- Rendered by JS -->
+        </div>
+
+        <!-- Evaluation categories (always shown) -->
+        <div class="eval-categories">
+          <h3 class="eval-section-title">Evaluation Categories</h3>
+          <div class="eval-category-grid">
+            <div class="eval-category-card">
+              <div class="eval-category-icon eval-icon-supported">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/>
+                </svg>
+              </div>
+              <div>
+                <h4>Supported Questions</h4>
+                <p>Questions whose answers exist directly in the indexed policy documents. Policy Lens should retrieve relevant evidence and generate a grounded answer.</p>
+              </div>
+            </div>
+            <div class="eval-category-card">
+              <div class="eval-category-icon eval-icon-paraphrase">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                </svg>
+              </div>
+              <div>
+                <h4>Paraphrased Questions</h4>
+                <p>Questions that express the same policy request using different wording or phrasing. Tests semantic retrieval robustness via the embedding component.</p>
+              </div>
+            </div>
+            <div class="eval-category-card">
+              <div class="eval-category-icon eval-icon-unsupported">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/>
+                </svg>
+              </div>
+              <div>
+                <h4>Unsupported Questions</h4>
+                <p>Questions whose answers do not exist in the policy documents (e.g. medical advice). Policy Lens should correctly trigger the insufficient-evidence response.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Retrieval method -->
+        <div class="eval-method-card">
+          <div class="eval-method-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/>
+            </svg>
+          </div>
+          <div>
+            <h3>About Evaluation Metrics</h3>
+            <p>Retrieval accuracy, supported/unsupported question rates, and answer quality scores require a labeled evaluation dataset with ground-truth question–answer pairs. These metrics are reported when an evaluation run is executed against the live system. The retrieval parameters shown above reflect the live system configuration.</p>
+          </div>
+        </div>
+
+      </section><!-- /page-eval -->
+
+    </div><!-- /page-container -->
+  </div><!-- /main-content -->
+
+</div><!-- /app-shell -->
+
+<script src="/js/app.js"></script>
+</body>
+</html>

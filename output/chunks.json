@@ -1,0 +1,3080 @@
+[
+  {
+    "section": "Document Introduction",
+    "text": "Administrative Services Department",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-REF-000_000",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "Source Reference Notes and Policy Index",
+    "text": "Policy ID: GVC-REF-000",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-REF-000_001",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "Version:",
+    "text": "1.0 Effective Date: 1 January 2026",
+    "pages": [
+      1
+    ],
+    "word_count": 6,
+    "chunk_id": "GVC-REF-000_002",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "Review Date:",
+    "text": "1 January 2027",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-REF-000_003",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "Status:",
+    "text": "Active",
+    "pages": [
+      1
+    ],
+    "word_count": 1,
+    "chunk_id": "GVC-REF-000_004",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "Hospital:",
+    "text": "Green Valley Community Hospital",
+    "pages": [
+      1
+    ],
+    "word_count": 4,
+    "chunk_id": "GVC-REF-000_005",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "About Green Valley Community Hospital",
+    "text": "demonstration purposes. In this fictional setting, the hospital serves the community of New Harmony and the surrounding Riverside District. It offers general inpatient care, outpatient consultations, and standard administrative services such as registration, billing, and insurance coordination. The hospital is not a research institution and does not perform advanced or specialized procedures in this dataset. Its documents focus entirely on day-to-day administrative operations rather than clinical or medical matters.",
+    "pages": [
+      1
+    ],
+    "word_count": 69,
+    "chunk_id": "GVC-REF-000_006",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "Value",
+    "text": "Hospital Name Hospital Type Medium-sized general hospital (fictional) Address 25 Green Valley Road, Riverside District, New Harmony Phone +1-555-010-2400 Email info@greenvalleyhospital.example",
+    "pages": [
+      1
+    ],
+    "word_count": 21,
+    "chunk_id": "GVC-REF-000_007",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "Purpose of This Knowledge Base",
+    "text": "This collection of documents forms the Green Valley Community Hospital Administrative Policy Knowledge Base, version 1.0. The knowledge base was created so that students and developers can practice building a document retrieval and question-answering system, sometimes called a Retrieval-Augmented Generation, or RAG, system. Each document in the knowledge base describes one area of hospital administration. Together, the documents allow a RAG system to answer common administrative questions by retrieving the most relevant sections and generating a grounded, source-referenced answer. This reference document does not contain detailed policy rules. Instead, it explains what the knowledge base contains and how the other nine documents are organized, so that a reader or a retrieval system can quickly find the right document for a given question.",
+    "pages": [
+      1
+    ],
+    "word_count": 122,
+    "chunk_id": "GVC-REF-000_008",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "How to Use This Knowledge Base",
+    "text": "Source Reference Notes and Policy Index Each of the nine policy documents listed below covers a distinct administrative topic. When a question is asked, the most relevant document and section should be identified first, and the answer should be built only from the text found there. If none of the documents contain information relevant to a question, the correct response is that there is insufficient evidence to answer it. This is especially important for medical questions. None of the documents in this knowledge base provide diagnosis, treatment, medication, or clinical advice. Questions of that kind fall outside the scope of this administrative knowledge base and should not be answered from it.",
+    "pages": [
+      2
+    ],
+    "word_count": 111,
+    "chunk_id": "GVC-REF-000_009",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "Index of Policy Documents",
+    "text": "The table below lists all nine policy documents included in this knowledge base, along with the department that owns each policy and a short description of its contents.",
+    "pages": [
+      2
+    ],
+    "word_count": 28,
+    "chunk_id": "GVC-REF-000_010",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "Document",
+    "text": "Policy ID",
+    "pages": [
+      2
+    ],
+    "word_count": 2,
+    "chunk_id": "GVC-REF-000_011",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "Owning Department",
+    "text": "Admission and Registration Policy GVC-ADM-001 Admissions Department Billing and Payment Policy GVC-BIL-002 Billing Department Insurance and Cashless Policy GVC-INS-003 Insurance Desk Visitor Access Policy GVC-VIS-004 Security and Visitor Services Discharge Process Policy GVC-DIS-005 Discharge Coordination Office Staff Administrative Policy GVC-STA-006 Human Resources / Admin Office Governance and Meetings Policy GVC-GOV-007 Administrative Governance Office Patient Records Policy GVC-REC-008 Medical Records Office Appointments and Outpatient Policy GVC-APT-009 Outpatient Desk",
+    "pages": [
+      2
+    ],
+    "word_count": 67,
+    "chunk_id": "GVC-REF-000_012",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "01. Admission and Registration Policy (GVC-ADM-001)",
+    "text": "Describes how new and returning patients register at Green Valley Community Hospital, what identification is required, how emergency registration works, and how room assignment and admission confirmation are handled.",
+    "pages": [
+      2
+    ],
+    "word_count": 29,
+    "chunk_id": "GVC-REF-000_013",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "02. Billing and Payment Policy (GVC-BIL-002)",
+    "text": "Describes accepted payment methods, how billing statements and receipts are issued, how deposits and partial payments work, and how patients can raise questions about incorrect charges or request a refund.",
+    "pages": [
+      2
+    ],
+    "word_count": 30,
+    "chunk_id": "GVC-REF-000_014",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "03. Insurance and Cashless Policy (GVC-INS-003)",
+    "text": "Describes how the Insurance Desk verifies coverage, submits cashless requests, and handles delayed or partial approvals, as well as what patients are responsible for when a claim is not fully covered.",
+    "pages": [
+      2
+    ],
+    "word_count": 31,
+    "chunk_id": "GVC-REF-000_015",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "04. Visitor Access Policy (GVC-VIS-004)",
+    "text": "Describes general visiting hours, visitor limits, visitor passes, identification requirements, and rules for children and restricted areas such as the Intensive Care Unit.",
+    "pages": [
+      2
+    ],
+    "word_count": 23,
+    "chunk_id": "GVC-REF-000_016",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "05. Discharge Process Policy (GVC-DIS-005)",
+    "text": "Source Reference Notes and Policy Index Describes the steps a patient completes before leaving the hospital, including final billing, document collection, property checks, and coordination with the billing and insurance desks.",
+    "pages": [
+      3
+    ],
+    "word_count": 31,
+    "chunk_id": "GVC-REF-000_017",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "06. Staff Administrative Policy (GVC-STA-006)",
+    "text": "Describes internal administrative procedures for hospital staff, including identification cards, attendance, leave requests, shift change requests, and workplace conduct.",
+    "pages": [
+      3
+    ],
+    "word_count": 19,
+    "chunk_id": "GVC-REF-000_018",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "07. Governance and Meetings Policy (GVC-GOV-007)",
+    "text": "Describes how department meetings are scheduled, how agendas and minutes are prepared, and how meeting records and action items are tracked.",
+    "pages": [
+      3
+    ],
+    "word_count": 21,
+    "chunk_id": "GVC-REF-000_019",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "08. Patient Records Policy (GVC-REC-008)",
+    "text": "Describes how patients or their authorized representatives can request a copy of their administrative hospital records, what identification is needed, and how corrections can be requested.",
+    "pages": [
+      3
+    ],
+    "word_count": 26,
+    "chunk_id": "GVC-REF-000_020",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "09. Appointments and Outpatient Policy (GVC-APT-009)",
+    "text": "Describes how outpatient appointments are booked, confirmed, rescheduled, or cancelled, and what happens when a patient arrives late or misses an appointment.",
+    "pages": [
+      3
+    ],
+    "word_count": 22,
+    "chunk_id": "GVC-REF-000_021",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "Important Administrative Terminology",
+    "text": "The following simple definitions are used consistently across the knowledge base. They are provided here so that a reader or a retrieval system encounters a consistent vocabulary.",
+    "pages": [
+      3
+    ],
+    "word_count": 27,
+    "chunk_id": "GVC-REF-000_022",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "Meaning in this Knowledge Base",
+    "text": "Registration The process of recording a patient's basic details when they first arrive at the hospital. Admission The process of formally accepting a patient for inpatient care after registration is complete. Cashless request A request sent to an insurance provider asking it to pay the hospital directly instead of the patient paying up front. Discharge The process of a patient formally leaving the hospital after inpatient care is complete. Administrative Services Desk The general contact point for questions that do not belong to one specific department.",
+    "pages": [
+      3
+    ],
+    "word_count": 86,
+    "chunk_id": "GVC-REF-000_023",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "How to Interpret These Policies",
+    "text": "All rules described in this knowledge base, including hours, fees, timelines, and limits, are fictional and were created only for this demonstration project. They should not be treated as the real rules of any hospital, and they should never be used to make actual medical, legal, financial, or insurance decisions. Numbers such as visiting hours, visitor limits, and processing timelines were chosen so that a retrieval system has clear, specific answers to retrieve. Readers building a RAG system should treat each numbered rule as a fact that can be cited back to its source document, section, and policy ID.",
+    "pages": [
+      3
+    ],
+    "word_count": 99,
+    "chunk_id": "GVC-REF-000_024",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "Frequently Asked Questions About This Knowledge Base",
+    "text": "Source Reference Notes and Policy Index Q: Is Green Valley Community Hospital a real hospital? A: No. Green Valley Community Hospital, along with every policy, address, and contact detail in this knowledge base, is entirely fictional and was created for a hackathon demonstration. Q: Can these documents answer medical questions? A: No. These documents cover administrative topics only. Questions about diagnosis, treatment, or medication are outside the scope of this knowledge base. Q: Which document should I check first for a specific question? A: Use the index above to identify the policy document most closely related to your topic, then look at that document's section headings for the relevant detail.",
+    "pages": [
+      4
+    ],
+    "word_count": 110,
+    "chunk_id": "GVC-REF-000_025",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "Fictional Dataset Statement",
+    "text": "This entire knowledge base, including the hospital name, address, phone number, email address, and every policy described within it, is fictional. It was created purely to support a one-day college hackathon exercise in building an AI and machine learning retrieval system. Any resemblance to a real hospital, organization, or policy is coincidental.",
+    "pages": [
+      4
+    ],
+    "word_count": 52,
+    "chunk_id": "GVC-REF-000_026",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "General Contact Information",
+    "text": "For general questions about this policy, please contact the Administrative Services Desk.",
+    "pages": [
+      4
+    ],
+    "word_count": 12,
+    "chunk_id": "GVC-REF-000_027",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "Details",
+    "text": "Administrative Services Desk +1-555-010-2400 General Email info@greenvalleyhospital.example Hospital Address 25 Green Valley Road, Riverside District, New Harmony Desk Hours Monday to Saturday, 8:00 AM to 6:00 PM",
+    "pages": [
+      4
+    ],
+    "word_count": 27,
+    "chunk_id": "GVC-REF-000_028",
+    "document": "00_source_reference_notes.pdf",
+    "policy_id": "GVC-REF-000"
+  },
+  {
+    "section": "Document Introduction",
+    "text": "Admissions Department",
+    "pages": [
+      1
+    ],
+    "word_count": 2,
+    "chunk_id": "GVC-ADM-001_000",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Admission and Registration Policy",
+    "text": "Policy ID: GVC-ADM-001",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-ADM-001_001",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Version:",
+    "text": "1.0 Effective Date: 1 January 2026",
+    "pages": [
+      1
+    ],
+    "word_count": 6,
+    "chunk_id": "GVC-ADM-001_002",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Review Date:",
+    "text": "1 January 2027",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-ADM-001_003",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Status:",
+    "text": "Active",
+    "pages": [
+      1
+    ],
+    "word_count": 1,
+    "chunk_id": "GVC-ADM-001_004",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Hospital:",
+    "text": "Green Valley Community Hospital",
+    "pages": [
+      1
+    ],
+    "word_count": 4,
+    "chunk_id": "GVC-ADM-001_005",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Purpose",
+    "text": "This policy explains how patients register and are admitted at Green Valley Community Hospital. It describes what information is collected, what identification is needed, and how the admission desk confirms and finalizes each admission.",
+    "pages": [
+      1
+    ],
+    "word_count": 34,
+    "chunk_id": "GVC-ADM-001_006",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Scope",
+    "text": "This policy applies to all patients being registered for inpatient or outpatient services, including new patients, returning patients, and patients arriving through the emergency entrance. It also applies to family members who assist a patient with registration.",
+    "pages": [
+      1
+    ],
+    "word_count": 37,
+    "chunk_id": "GVC-ADM-001_007",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Policy Statement",
+    "text": "Every patient should complete registration before or shortly after receiving care, depending on whether the visit is a planned admission or an emergency case. Registration allows the hospital to open an administrative file, assign a patient reference number, and coordinate later steps such as billing, insurance verification, and discharge. Patients should provide basic identification during registration. A contact person should also be listed so the hospital can reach a family member if needed.",
+    "pages": [
+      1
+    ],
+    "word_count": 73,
+    "chunk_id": "GVC-ADM-001_008",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "New Patient Registration",
+    "text": "A patient visiting Green Valley Community Hospital for the first time is considered a new patient. New patients should visit the admission desk, located near the main entrance, to begin registration.",
+    "pages": [
+      1
+    ],
+    "word_count": 31,
+    "chunk_id": "GVC-ADM-001_009",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "•",
+    "text": "Full name, date of birth, and gender.",
+    "pages": [
+      1
+    ],
+    "word_count": 7,
+    "chunk_id": "GVC-ADM-001_010",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "•",
+    "text": "Current address and at least one phone number.",
+    "pages": [
+      1
+    ],
+    "word_count": 8,
+    "chunk_id": "GVC-ADM-001_011",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "•",
+    "text": "Name and phone number of an emergency contact person.",
+    "pages": [
+      1
+    ],
+    "word_count": 9,
+    "chunk_id": "GVC-ADM-001_012",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "•",
+    "text": "Reason for the visit, in general terms.",
+    "pages": [
+      1
+    ],
+    "word_count": 7,
+    "chunk_id": "GVC-ADM-001_013",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "•",
+    "text": "Preferred method of contact for updates. Once this information is recorded, the admission desk issues a patient reference number. This number is used across the hospital for billing, records, and future visits.",
+    "pages": [
+      1
+    ],
+    "word_count": 32,
+    "chunk_id": "GVC-ADM-001_014",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Returning Patients",
+    "text": "Admission and Registration Policy Patients who have visited Green Valley Community Hospital before are considered returning patients. Returning patients should confirm whether their information has changed since their last visit, including their address, phone number, or emergency contact person. If no information has changed, the returning patient can confirm this verbally at the admission desk, and registration is usually completed more quickly than for a new patient.",
+    "pages": [
+      2
+    ],
+    "word_count": 67,
+    "chunk_id": "GVC-ADM-001_015",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Required Identification",
+    "text": "Patients should bring a valid form of identification to the admission desk. Acceptable identification includes a government-issued identity card, a driving license, or a passport. Family members registering on behalf of a patient should also carry their own identification.",
+    "pages": [
+      2
+    ],
+    "word_count": 39,
+    "chunk_id": "GVC-ADM-001_016",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Identification Needed",
+    "text": "Adult patient registering in person One valid photo identification document Family member registering on behalf of a patient Patient identification, if available, plus the family member's own identification Returning patient with an existing record Identification to confirm identity; full re-registration is not required",
+    "pages": [
+      2
+    ],
+    "word_count": 43,
+    "chunk_id": "GVC-ADM-001_017",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Emergency Registration",
+    "text": "Emergency cases may complete some administrative steps after initial care rather than before it. When a patient arrives through the emergency entrance, hospital staff first focus on providing timely care, and a family member or the patient can complete full registration once the situation is stable. Admission staff will still request basic identification and contact details as soon as practical, so that an administrative record can be created and later steps, such as billing and insurance coordination, can proceed smoothly.",
+    "pages": [
+      2
+    ],
+    "word_count": 80,
+    "chunk_id": "GVC-ADM-001_018",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Admission Confirmation and Room Assignment",
+    "text": "Once registration information has been verified, admission staff confirm the admission and, for inpatient stays, coordinate room assignment with the relevant hospital department. Patients receive an admission confirmation slip that includes their patient reference number and, where applicable, their assigned room. Admission staff verify registration information before finalizing admission. This step helps avoid mistakes in later administrative processes such as billing and record-keeping.",
+    "pages": [
+      2
+    ],
+    "word_count": 63,
+    "chunk_id": "GVC-ADM-001_019",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Updating Patient Information and Registration Timing",
+    "text": "Patients or their listed contact person can update registration information, such as a phone number or address, at any time by visiting the admission desk or contacting the Administrative Services Desk. For planned, non-emergency admissions, patients are encouraged to complete registration at least 30 minutes before their scheduled admission time. This allows the admission desk enough time to verify information and prepare an admission confirmation before the patient proceeds to their assigned area.",
+    "pages": [
+      2
+    ],
+    "word_count": 73,
+    "chunk_id": "GVC-ADM-001_020",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Missing Documents and Registration Mistakes",
+    "text": "Admission and Registration Policy If a patient does not have identification available at the time of registration, admission staff may accept alternative identifying information and ask the patient to provide formal identification within a short period afterward, usually before discharge. If a registration mistake is discovered, such as a misspelled name or an incorrect contact number, the patient or a family member should inform the admission desk as soon as possible so that the record can be corrected.",
+    "pages": [
+      3
+    ],
+    "word_count": 78,
+    "chunk_id": "GVC-ADM-001_021",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Family Member Responsibilities",
+    "text": "Family members assisting with registration are expected to provide accurate information to the best of their knowledge and to remain available by phone in case the hospital needs to confirm details during the patient's stay.",
+    "pages": [
+      3
+    ],
+    "word_count": 35,
+    "chunk_id": "GVC-ADM-001_022",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "•",
+    "text": "Bring identification for themselves and, if available, for the patient.",
+    "pages": [
+      3
+    ],
+    "word_count": 10,
+    "chunk_id": "GVC-ADM-001_023",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "•",
+    "text": "Provide an accurate emergency contact number.",
+    "pages": [
+      3
+    ],
+    "word_count": 6,
+    "chunk_id": "GVC-ADM-001_024",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "•",
+    "text": "Inform the admission desk promptly of any changes to contact details.",
+    "pages": [
+      3
+    ],
+    "word_count": 11,
+    "chunk_id": "GVC-ADM-001_025",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "•",
+    "text": "Assist with collecting any missing documents when requested.",
+    "pages": [
+      3
+    ],
+    "word_count": 8,
+    "chunk_id": "GVC-ADM-001_026",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Responsibilities",
+    "text": "The Admissions Department is responsible for collecting accurate registration information, issuing patient reference numbers, and confirming admissions. Patients and family members are responsible for providing accurate information and identification and for promptly reporting any changes.",
+    "pages": [
+      3
+    ],
+    "word_count": 35,
+    "chunk_id": "GVC-ADM-001_027",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Exceptions",
+    "text": "Emergency cases may bypass the standard registration sequence so that care is not delayed, as described in the Emergency Registration section. In rare cases where a patient is unable to provide any identification and no family member is present, admission staff will create a temporary administrative record and request identification once it becomes available.",
+    "pages": [
+      3
+    ],
+    "word_count": 54,
+    "chunk_id": "GVC-ADM-001_028",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Frequently Asked Questions",
+    "text": "Q: What documents are required during admission? A: Patients should bring one valid form of identification, such as a government-issued identity card, driving license, or passport, along with the name and phone number of an emergency contact person. Q: When should a patient complete the registration process? A: For planned admissions, patients should complete registration at least 30 minutes before their scheduled admission time. Emergency cases may complete registration after initial care is provided. Q: What happens if a registration document is missing? A: Admission staff may accept alternative identifying information and ask the patient to provide formal identification within a short period afterward, usually before discharge. Q: Can returning patients update their information? A: Yes. Returning patients should confirm whether their information has changed and can update their address, phone number, or emergency contact at the admission desk at any time. Q: What happens during emergency registration? Admission and Registration Policy A: Care is provided first, and full registration is completed once the situation is stable, usually with help from a family member or the patient once they are able. Q: Who verifies registration information before admission is finalized? A: Admission staff verify registration information before finalizing admission and confirming room assignment.",
+    "pages": [
+      3,
+      4
+    ],
+    "word_count": 203,
+    "chunk_id": "GVC-ADM-001_029",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Contact Information",
+    "text": "For general questions about this policy, please contact the Administrative Services Desk.",
+    "pages": [
+      4
+    ],
+    "word_count": 12,
+    "chunk_id": "GVC-ADM-001_030",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Details",
+    "text": "Administrative Services Desk +1-555-010-2400 General Email info@greenvalleyhospital.example Hospital Address 25 Green Valley Road, Riverside District, New Harmony Desk Hours Monday to Saturday, 8:00 AM to 6:00 PM",
+    "pages": [
+      4
+    ],
+    "word_count": 27,
+    "chunk_id": "GVC-ADM-001_031",
+    "document": "01_admission_registration_policy.pdf",
+    "policy_id": "GVC-ADM-001"
+  },
+  {
+    "section": "Document Introduction",
+    "text": "Billing Department",
+    "pages": [
+      1
+    ],
+    "word_count": 2,
+    "chunk_id": "GVC-BIL-002_000",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Billing and Payment Policy",
+    "text": "Policy ID: GVC-BIL-002",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-BIL-002_001",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Version:",
+    "text": "1.0 Effective Date: 1 January 2026",
+    "pages": [
+      1
+    ],
+    "word_count": 6,
+    "chunk_id": "GVC-BIL-002_002",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Review Date:",
+    "text": "1 January 2027",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-BIL-002_003",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Status:",
+    "text": "Active",
+    "pages": [
+      1
+    ],
+    "word_count": 1,
+    "chunk_id": "GVC-BIL-002_004",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Hospital:",
+    "text": "Green Valley Community Hospital",
+    "pages": [
+      1
+    ],
+    "word_count": 4,
+    "chunk_id": "GVC-BIL-002_005",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Purpose",
+    "text": "This policy explains how billing works at Green Valley Community Hospital, including accepted payment methods, how billing statements are issued, and how patients can ask questions about charges or request a refund. The policy is written for patients, family members, and hospital staff, so that everyone involved in a hospital visit understands how charges are tracked, communicated, and settled from registration through to discharge.",
+    "pages": [
+      1
+    ],
+    "word_count": 64,
+    "chunk_id": "GVC-BIL-002_006",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Scope",
+    "text": "This policy applies to all patients receiving inpatient or outpatient services at Green Valley Community Hospital, and to family members who make payments on a patient's behalf. It covers administrative billing matters only. Questions about the clinical reasons for a particular treatment should be directed to the treating department rather than the billing desk, since billing staff handle charges and payments rather than clinical decisions.",
+    "pages": [
+      1
+    ],
+    "word_count": 65,
+    "chunk_id": "GVC-BIL-002_007",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Policy Statement",
+    "text": "information during their stay and a final bill at discharge. The billing desk is available to answer questions about charges at any point during a patient's visit.",
+    "pages": [
+      1
+    ],
+    "word_count": 27,
+    "chunk_id": "GVC-BIL-002_008",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Billing Desk and Initial Billing Information",
+    "text": "The billing desk operates during specified administrative hours: 8:00 AM to 6:00 PM, Monday to Saturday. Patients or their family members can visit the billing desk, located near the admission area, to ask about estimated costs, request a deposit receipt, or review current charges. Shortly after admission, the billing desk provides initial billing information, including an estimate of common charges for the type of care being provided. This estimate may change as treatment continues, and patients are encouraged to check in with the billing desk periodically during a longer stay.",
+    "pages": [
+      1
+    ],
+    "word_count": 90,
+    "chunk_id": "GVC-BIL-002_009",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Payment Methods",
+    "text": "option that is most convenient for them. Billing and Payment Policy",
+    "pages": [
+      1,
+      2
+    ],
+    "word_count": 11,
+    "chunk_id": "GVC-BIL-002_010",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Notes",
+    "text": "Cash Accepted at the billing desk during desk hours. Card payment Debit and credit cards are accepted at the billing desk and at self-service kiosks. Digital payment Bank transfer and mobile payment options are accepted; ask the billing desk for current details. Patients can pay their hospital bill using a card at the billing desk or at a self-service payment kiosk located in the main lobby. Card payments are processed immediately, and a receipt is issued automatically.",
+    "pages": [
+      2
+    ],
+    "word_count": 77,
+    "chunk_id": "GVC-BIL-002_011",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Deposits and Partial Payments",
+    "text": "For planned inpatient admissions, an initial deposit may be requested at the time of registration. The deposit is applied toward the final bill at discharge. Patients who are unable to pay the full estimated deposit can discuss partial payment arrangements with the billing desk. Partial payments made during a hospital stay are recorded against the patient's account and reflected in the next billing statement.",
+    "pages": [
+      2
+    ],
+    "word_count": 64,
+    "chunk_id": "GVC-BIL-002_012",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Billing Statements and Receipts",
+    "text": "Patients can request a printed or digital billing statement at any time by visiting the billing desk or contacting the Administrative Services Desk. Statements list the charges recorded so far, any payments made, and the current outstanding balance. Receipts should be retained for future reference, including for insurance claims or personal records. Digital receipts are sent automatically to the contact information provided at registration, when available.",
+    "pages": [
+      2
+    ],
+    "word_count": 66,
+    "chunk_id": "GVC-BIL-002_013",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Billing Questions and Incorrect Charges",
+    "text": "Billing questions can be submitted to the billing desk in person, by phone during desk hours, or by email to the Administrative Services Desk. If a patient believes a charge is incorrect, they should raise the concern as soon as possible so that billing staff can review the relevant records.",
+    "pages": [
+      2
+    ],
+    "word_count": 50,
+    "chunk_id": "GVC-BIL-002_014",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "•",
+    "text": "Describe the charge in question, including the date if known.",
+    "pages": [
+      2
+    ],
+    "word_count": 10,
+    "chunk_id": "GVC-BIL-002_015",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "•",
+    "text": "Provide the patient reference number issued at registration.",
+    "pages": [
+      2
+    ],
+    "word_count": 8,
+    "chunk_id": "GVC-BIL-002_016",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "•",
+    "text": "Billing staff will review the charge and respond within a reasonable time, usually within three working days.",
+    "pages": [
+      2
+    ],
+    "word_count": 17,
+    "chunk_id": "GVC-BIL-002_017",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Refund Requests",
+    "text": "Refund requests require basic payment information and supporting documents, such as the original receipt and the patient reference number. Refunds are usually considered when a deposit is larger than the final bill, or when a payment was made in error. Refund requests can be submitted at the billing desk using a simple refund request form. The billing desk will confirm receipt of the request and provide an estimated processing time.",
+    "pages": [
+      2
+    ],
+    "word_count": 70,
+    "chunk_id": "GVC-BIL-002_018",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Final Bill and Discharge Coordination",
+    "text": "The final bill is prepared during the discharge process. Once treatment is complete and a discharge has been approved, the billing desk calculates the total charges, applies any deposits or insurance payments Billing and Payment Policy already received, and presents the final amount due. Patients are encouraged to settle the final bill before leaving the hospital. If the final bill cannot be settled immediately, the billing desk can discuss short-term payment arrangements.",
+    "pages": [
+      2,
+      3
+    ],
+    "word_count": 72,
+    "chunk_id": "GVC-BIL-002_019",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Timelines for Common Billing Tasks",
+    "text": "The table below summarizes typical timelines for common billing tasks, so patients know roughly what to expect at each stage of their visit.",
+    "pages": [
+      3
+    ],
+    "word_count": 23,
+    "chunk_id": "GVC-BIL-002_020",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Typical Timeline",
+    "text": "Initial billing estimate Provided shortly after admission Billing statement request Available same day at the billing desk Response to a billing question Within three working days Refund processing Usually within seven working days of an approved request Final bill preparation Prepared during the discharge process",
+    "pages": [
+      3
+    ],
+    "word_count": 45,
+    "chunk_id": "GVC-BIL-002_021",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Responsibilities",
+    "text": "The Billing Department is responsible for maintaining accurate billing records, issuing statements and receipts, and responding to billing questions. Patients and family members are responsible for reviewing their billing statements and raising any concerns promptly. Both the Billing Department and the patient share responsibility for keeping communication clear: billing staff should explain charges in plain language, and patients should ask questions whenever a charge is unclear rather than waiting until discharge.",
+    "pages": [
+      3
+    ],
+    "word_count": 71,
+    "chunk_id": "GVC-BIL-002_022",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Exceptions",
+    "text": "In emergency cases, care is provided before billing formalities are completed. Billing information is still collected as soon as practical after the patient's condition is stable. Patients facing genuine difficulty in making an immediate payment can discuss alternative arrangements with the billing desk on a case-by-case basis.",
+    "pages": [
+      3
+    ],
+    "word_count": 47,
+    "chunk_id": "GVC-BIL-002_023",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Frequently Asked Questions",
+    "text": "Q: Can I pay my hospital bill using a card? A: Yes. Card payments are accepted at the billing desk and at self-service payment kiosks in the main lobby. Q: How can a patient request a billing statement? A: Patients can request a printed or digital billing statement at the billing desk or by contacting the Administrative Services Desk. Q: How are refunds requested? A: Refund requests require the original receipt and patient reference number, and can be submitted at the billing desk using a refund request form. Q: What happens during final billing? Billing and Payment Policy A: The billing desk calculates total charges, applies deposits or insurance payments already received, and presents the final amount due during the discharge process. Q: What are the billing desk hours? A: The billing desk operates from 8:00 AM to 6:00 PM, Monday to Saturday. Q: What should I do if I think a charge is incorrect? A: Contact the billing desk with the charge details and your patient reference number so staff can review the record, usually within three working days.",
+    "pages": [
+      3,
+      4
+    ],
+    "word_count": 180,
+    "chunk_id": "GVC-BIL-002_024",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Contact Information",
+    "text": "For general questions about this policy, please contact the Administrative Services Desk.",
+    "pages": [
+      4
+    ],
+    "word_count": 12,
+    "chunk_id": "GVC-BIL-002_025",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Details",
+    "text": "Administrative Services Desk +1-555-010-2400 General Email info@greenvalleyhospital.example Hospital Address 25 Green Valley Road, Riverside District, New Harmony Desk Hours Monday to Saturday, 8:00 AM to 6:00 PM",
+    "pages": [
+      4
+    ],
+    "word_count": 27,
+    "chunk_id": "GVC-BIL-002_026",
+    "document": "02_billing_payment_policy.pdf",
+    "policy_id": "GVC-BIL-002"
+  },
+  {
+    "section": "Document Introduction",
+    "text": "Insurance Desk",
+    "pages": [
+      1
+    ],
+    "word_count": 2,
+    "chunk_id": "GVC-INS-003_000",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Insurance and Cashless Policy",
+    "text": "Policy ID: GVC-INS-003",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-INS-003_001",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Version:",
+    "text": "1.0 Effective Date: 1 January 2026",
+    "pages": [
+      1
+    ],
+    "word_count": 6,
+    "chunk_id": "GVC-INS-003_002",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Review Date:",
+    "text": "1 January 2027",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-INS-003_003",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Status:",
+    "text": "Active",
+    "pages": [
+      1
+    ],
+    "word_count": 1,
+    "chunk_id": "GVC-INS-003_004",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Hospital:",
+    "text": "Green Valley Community Hospital",
+    "pages": [
+      1
+    ],
+    "word_count": 4,
+    "chunk_id": "GVC-INS-003_005",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Purpose",
+    "text": "This policy explains how patients with insurance coverage can request cashless treatment at Green Valley Community Hospital, and what happens when insurance approval is delayed, partial, or unavailable. All insurance rules described here are fictional and created for this demonstration only.",
+    "pages": [
+      1
+    ],
+    "word_count": 41,
+    "chunk_id": "GVC-INS-003_006",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Scope",
+    "text": "This policy applies to any patient who wishes to use insurance coverage, whether through a cashless request or through reimbursement after payment. It also applies to family members coordinating insurance matters on a patient's behalf.",
+    "pages": [
+      1
+    ],
+    "word_count": 35,
+    "chunk_id": "GVC-INS-003_007",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Key Terms",
+    "text": "A few simple terms are used throughout this policy so that patients understand how the insurance process works.",
+    "pages": [
+      1
+    ],
+    "word_count": 18,
+    "chunk_id": "GVC-INS-003_008",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Meaning",
+    "text": "Cashless request A request sent by the hospital to an insurance provider, asking it to pay the hospital directly instead of the patient paying up front. Insurance approval Confirmation from the insurance provider that some or all of a cashless request will be paid. Coverage confirmation A message from the insurance provider stating what portion of the treatment cost is covered. Patient responsibility The portion of the bill that is not covered by insurance and must be paid by the patient.",
+    "pages": [
+      1
+    ],
+    "word_count": 81,
+    "chunk_id": "GVC-INS-003_009",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Insurance Desk and Insurance Identification",
+    "text": "The Insurance Desk is located next to the admission area and assists patients with all cashless and insurance-related questions. Patients wishing to use insurance should visit the Insurance Desk as early as possible during their visit, ideally at the time of registration. Patients should bring their insurance card and any related identification documents so the Insurance Desk can begin verifying coverage. Insurance and Cashless Policy",
+    "pages": [
+      1,
+      2
+    ],
+    "word_count": 65,
+    "chunk_id": "GVC-INS-003_010",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Cashless Request Procedure",
+    "text": "When a patient requests cashless treatment, the Insurance Desk follows a simple sequence of steps to communicate with the insurance provider. 1 The Insurance Desk collects the patient's insurance card and basic treatment information. 2 A cashless request is sent to the insurance provider, describing the expected treatment and estimated cost. 3 The insurance provider reviews the request and sends back a coverage confirmation, which may approve the full amount, part of the amount, or request more information. 4 The Insurance Desk shares the outcome with the patient and updates the billing desk so that charges reflect the confirmed coverage.",
+    "pages": [
+      2
+    ],
+    "word_count": 100,
+    "chunk_id": "GVC-INS-003_011",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Required Documents for Insurance Verification",
+    "text": "To begin a cashless request, the Insurance Desk generally needs the following documents.",
+    "pages": [
+      2
+    ],
+    "word_count": 13,
+    "chunk_id": "GVC-INS-003_012",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "•",
+    "text": "A valid insurance card or policy document.",
+    "pages": [
+      2
+    ],
+    "word_count": 7,
+    "chunk_id": "GVC-INS-003_013",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "•",
+    "text": "Patient identification matching the name on the insurance card.",
+    "pages": [
+      2
+    ],
+    "word_count": 9,
+    "chunk_id": "GVC-INS-003_014",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "•",
+    "text": "The patient reference number issued during registration.",
+    "pages": [
+      2
+    ],
+    "word_count": 7,
+    "chunk_id": "GVC-INS-003_015",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "•",
+    "text": "Any prior approval or referral documents, if applicable to the patient's insurance provider.",
+    "pages": [
+      2
+    ],
+    "word_count": 13,
+    "chunk_id": "GVC-INS-003_016",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Scenario 1: Insurance Information Is Complete",
+    "text": "When a patient provides a valid insurance card and all required documents at registration, the Insurance Desk can usually submit the cashless request the same day. In this situation, the patient does not need to make an upfront payment for the portion expected to be covered, once the insurance provider confirms approval.",
+    "pages": [
+      2
+    ],
+    "word_count": 52,
+    "chunk_id": "GVC-INS-003_017",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Scenario 2: Insurance Approval Is Delayed",
+    "text": "Sometimes an insurance provider takes longer than expected to respond to a cashless request. If insurance approval is delayed, the Insurance Desk continues to follow up with the insurance provider and keeps the patient informed of the status. During a delay, the billing desk may request a temporary deposit to allow treatment to continue without interruption. This deposit is adjusted once the insurance provider's decision is received.",
+    "pages": [
+      2
+    ],
+    "word_count": 67,
+    "chunk_id": "GVC-INS-003_018",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Scenario 3: Partial Approval",
+    "text": "In some cases, the insurer approves only part of a requested amount. When this happens, the Insurance Desk explains which charges are covered and which charges become the patient's responsibility. The billing desk then updates the patient's bill to reflect the confirmed coverage and the remaining balance.",
+    "pages": [
+      2
+    ],
+    "word_count": 47,
+    "chunk_id": "GVC-INS-003_019",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Scenario 4: Missing Insurance Document",
+    "text": "If a patient does not have the required insurance document available, the Insurance Desk can still begin basic verification using the information available, but the cashless request cannot be finalized until the missing document is provided. In this situation, the patient may be asked to pay for treatment upfront and later submit the charges to their insurance provider for reimbursement, using the receipts issued by the billing desk. Insurance and Cashless Policy",
+    "pages": [
+      2,
+      3
+    ],
+    "word_count": 72,
+    "chunk_id": "GVC-INS-003_020",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Non-Covered Charges and Patient Responsibility",
+    "text": "Not all charges are always covered by insurance. Charges that fall outside a patient's coverage, such as certain optional services, become the patient's responsibility. The Insurance Desk will explain any non-covered charges before they are added to the final bill, whenever possible.",
+    "pages": [
+      3
+    ],
+    "word_count": 42,
+    "chunk_id": "GVC-INS-003_021",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Insurance Claim Documents and Final Claim Submission",
+    "text": "Patients using reimbursement, rather than a cashless request, should keep all receipts, discharge documents, and billing statements. The Insurance Desk can prepare a summary of administrative charges to support the patient's own claim submission to their insurance provider. For cashless cases, the final claim is submitted to the insurance provider by the Insurance Desk after discharge, once the final bill has been prepared by the billing desk.",
+    "pages": [
+      3
+    ],
+    "word_count": 67,
+    "chunk_id": "GVC-INS-003_022",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Communication With the Insurance Provider",
+    "text": "The Insurance Desk communicates with insurance providers by phone, secure email, or an online provider portal, depending on what each insurance provider supports. Patients are not usually required to contact the insurance provider directly while the Insurance Desk is handling a cashless request, though they are welcome to do so if they wish to check on their policy details independently. The Insurance Desk keeps a simple status log for each cashless request, noting when the request was submitted, when a response was received, and what the outcome was. Patients can ask to see a summary of this status log at any time.",
+    "pages": [
+      3
+    ],
+    "word_count": 102,
+    "chunk_id": "GVC-INS-003_023",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Responsibilities",
+    "text": "The Insurance Desk is responsible for submitting cashless requests, communicating with insurance providers, and keeping patients informed of the status of their request. Patients are responsible for providing accurate insurance information and required documents. The billing desk and the Insurance Desk work together closely, since insurance decisions directly affect the charges shown on a patient's bill. Patients with questions that touch both areas can start at either desk, and staff will coordinate internally.",
+    "pages": [
+      3
+    ],
+    "word_count": 73,
+    "chunk_id": "GVC-INS-003_024",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Exceptions",
+    "text": "In emergency situations, treatment begins before insurance verification is complete. The Insurance Desk will begin the cashless process as soon as the patient's condition is stable and the required documents can be collected.",
+    "pages": [
+      3
+    ],
+    "word_count": 33,
+    "chunk_id": "GVC-INS-003_025",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Frequently Asked Questions",
+    "text": "Q: What is needed for an insurance verification request? A: A valid insurance card, matching patient identification, the patient reference number, and any prior approval documents required by the insurance provider. Q: What happens if insurance approval is delayed? A: The Insurance Desk continues to follow up with the provider and keeps the patient informed. A temporary deposit may be requested until approval is received. Q: What happens if only part of a claim is approved? Insurance and Cashless Policy A: The Insurance Desk explains which charges are covered, and the billing desk updates the bill so the remaining balance becomes the patient's responsibility. Q: What documents should patients keep for insurance? A: Patients should keep all receipts, discharge documents, and billing statements, especially if they are using reimbursement instead of a cashless request. Q: What happens if I do not have my insurance document? A: The Insurance Desk can begin basic verification, but the cashless request cannot be finalized until the missing document is provided. Patients may need to pay upfront and seek reimbursement afterward.",
+    "pages": [
+      3,
+      4
+    ],
+    "word_count": 176,
+    "chunk_id": "GVC-INS-003_026",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Contact Information",
+    "text": "For general questions about this policy, please contact the Administrative Services Desk.",
+    "pages": [
+      4
+    ],
+    "word_count": 12,
+    "chunk_id": "GVC-INS-003_027",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Details",
+    "text": "Administrative Services Desk +1-555-010-2400 General Email info@greenvalleyhospital.example Hospital Address 25 Green Valley Road, Riverside District, New Harmony Desk Hours Monday to Saturday, 8:00 AM to 6:00 PM",
+    "pages": [
+      4
+    ],
+    "word_count": 27,
+    "chunk_id": "GVC-INS-003_028",
+    "document": "03_insurance_cashless_policy.pdf",
+    "policy_id": "GVC-INS-003"
+  },
+  {
+    "section": "Document Introduction",
+    "text": "Security and Visitor Services",
+    "pages": [
+      1
+    ],
+    "word_count": 4,
+    "chunk_id": "GVC-VIS-004_000",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Visitor Access Policy",
+    "text": "Policy ID: GVC-VIS-004",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-VIS-004_001",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Version:",
+    "text": "1.0 Effective Date: 1 January 2026",
+    "pages": [
+      1
+    ],
+    "word_count": 6,
+    "chunk_id": "GVC-VIS-004_002",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Review Date:",
+    "text": "1 January 2027",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-VIS-004_003",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Status:",
+    "text": "Active",
+    "pages": [
+      1
+    ],
+    "word_count": 1,
+    "chunk_id": "GVC-VIS-004_004",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Hospital:",
+    "text": "Green Valley Community Hospital",
+    "pages": [
+      1
+    ],
+    "word_count": 4,
+    "chunk_id": "GVC-VIS-004_005",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Purpose",
+    "text": "This policy explains the rules for visitors at Green Valley Community Hospital, including visiting hours, visitor limits, and how visitor passes work. The goal is to keep the hospital comfortable and safe for patients while allowing family and friends to visit. A calm and predictable visiting environment helps patients rest and recover, while also making it easier for hospital staff to move through wards and provide care without unnecessary interruption.",
+    "pages": [
+      1
+    ],
+    "word_count": 70,
+    "chunk_id": "GVC-VIS-004_006",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Scope",
+    "text": "This policy applies to all visitors entering patient care areas of Green Valley Community Hospital, including inpatient wards and the Intensive Care Unit. It does not apply to hospital staff, contractors, or delivery personnel, who follow separate internal access procedures managed by the administrative office.",
+    "pages": [
+      1
+    ],
+    "word_count": 45,
+    "chunk_id": "GVC-VIS-004_007",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "General Visiting Hours",
+    "text": "General visiting hours are from 8:00 AM to 8:00 PM every day. Visitors are asked to arrive within these hours so that patients have enough time to rest between visits. Outside of general visiting hours, access to patient care areas is limited to registered family members providing overnight support, where this has been arranged with ward staff in advance.",
+    "pages": [
+      1
+    ],
+    "word_count": 59,
+    "chunk_id": "GVC-VIS-004_008",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Visitor Registration and Identification",
+    "text": "All visitors should register at the security desk near the main entrance before proceeding to a patient's room. Visitor registration involves recording the visitor's name and the name of the patient they are visiting. Visitor identification: a valid identification document should be shown when requested, either at registration or when asked by security staff inside the hospital.",
+    "pages": [
+      1
+    ],
+    "word_count": 57,
+    "chunk_id": "GVC-VIS-004_009",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Visitor Passes",
+    "text": "A visitor pass is required for inpatient visitors. After registering at the security desk, each visitor receives a printed visitor pass, which should be worn or carried visibly while inside the hospital. Visitor passes are valid for the day they are issued. Visitors planning to return on a different day should register again and collect a new pass. Visitor Access Policy",
+    "pages": [
+      1,
+      2
+    ],
+    "word_count": 61,
+    "chunk_id": "GVC-VIS-004_010",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Maximum Visitors and Visitor Limits",
+    "text": "Maximum visitors: 2 visitors per patient at one time. This limit helps keep patient rooms comfortable and allows hospital staff to move freely while providing care.",
+    "pages": [
+      2
+    ],
+    "word_count": 26,
+    "chunk_id": "GVC-VIS-004_011",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Visitor Limit at One Time",
+    "text": "General inpatient ward 2 visitors per patient Intensive Care Unit (ICU) 1 visitor per patient, for short periods Outpatient waiting areas No strict limit, but visitors should keep walkways clear",
+    "pages": [
+      2
+    ],
+    "word_count": 30,
+    "chunk_id": "GVC-VIS-004_012",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Children Visiting",
+    "text": "Children are welcome to visit during general visiting hours when accompanied by an adult. Because hospital environments can be unfamiliar to young children, parents and guardians are asked to supervise children closely and to keep visits brief if a child becomes restless or unwell themselves.",
+    "pages": [
+      2
+    ],
+    "word_count": 45,
+    "chunk_id": "GVC-VIS-004_013",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "ICU Access and Restricted Areas",
+    "text": "The Intensive Care Unit has more limited visiting arrangements than the general wards because patients there need extra rest and close monitoring. ICU visits are generally shorter and limited to one visitor at a time, coordinated with ward staff. Some areas of the hospital, such as staff-only corridors and equipment rooms, are restricted areas and are not open to visitors at any time. Signs mark these areas, and visitors should follow posted instructions.",
+    "pages": [
+      2
+    ],
+    "word_count": 73,
+    "chunk_id": "GVC-VIS-004_014",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Quiet Hours and Visitor Conduct",
+    "text": "Quiet hours are observed between 9:00 PM and 7:00 AM, even for visitors who have arranged overnight support. During quiet hours, conversations and phone calls should be kept low in volume so other patients are not disturbed. Visitors are expected to behave respectfully toward patients, staff, and other visitors, and to follow instructions from hospital staff and security personnel at all times.",
+    "pages": [
+      2
+    ],
+    "word_count": 62,
+    "chunk_id": "GVC-VIS-004_015",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Lost Visitor Passes",
+    "text": "If a visitor pass is lost during a visit, the visitor should report this to the security desk immediately. A replacement pass can usually be issued after confirming the visitor's identity and the patient they are visiting.",
+    "pages": [
+      2
+    ],
+    "word_count": 37,
+    "chunk_id": "GVC-VIS-004_016",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Visiting Exceptions",
+    "text": "In certain situations, such as end-of-life care or a patient's urgent need for family support, ward staff may allow flexibility in visiting hours or visitor limits. These exceptions are decided case by case in coordination with the nursing staff on duty.",
+    "pages": [
+      2
+    ],
+    "word_count": 41,
+    "chunk_id": "GVC-VIS-004_017",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Security Desk",
+    "text": "The security desk is the main point of contact for all visitor-related questions. It is staffed at all times and can help with visitor registration, replacement passes, and directions within the hospital. Visitor Access Policy",
+    "pages": [
+      2,
+      3
+    ],
+    "word_count": 35,
+    "chunk_id": "GVC-VIS-004_018",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Frequently Asked Practical Situations",
+    "text": "Beyond the standard rules above, visitors sometimes ask about everyday situations that are not covered by a single specific rule. The guidance below is meant to help in these common cases.",
+    "pages": [
+      3
+    ],
+    "word_count": 31,
+    "chunk_id": "GVC-VIS-004_019",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "•",
+    "text": "Visitors bringing food or personal items for a patient should check with ward staff first, in case of any dietary considerations.",
+    "pages": [
+      3
+    ],
+    "word_count": 21,
+    "chunk_id": "GVC-VIS-004_020",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "•",
+    "text": "Large groups of visitors should take turns rather than gathering together in a patient's room, to stay within the visitor limit.",
+    "pages": [
+      3
+    ],
+    "word_count": 21,
+    "chunk_id": "GVC-VIS-004_021",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "•",
+    "text": "Visitors who need to step out briefly, for example to make a phone call, do not need to re-register if they return the same day and still have their visitor pass.",
+    "pages": [
+      3
+    ],
+    "word_count": 31,
+    "chunk_id": "GVC-VIS-004_022",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "•",
+    "text": "Visitors bringing flowers or gifts should check with ward staff about any restrictions that may apply in certain wards.",
+    "pages": [
+      3
+    ],
+    "word_count": 19,
+    "chunk_id": "GVC-VIS-004_023",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Responsibilities",
+    "text": "Security and Visitor Services staff are responsible for registering visitors, issuing visitor passes, and enforcing visitor limits. Visitors are responsible for carrying valid identification, wearing their visitor pass, and following hospital rules during their visit. Ward staff share responsibility for visitor comfort and safety within their specific ward, including deciding when a shorter or adjusted visit is appropriate for a particular patient's wellbeing.",
+    "pages": [
+      3
+    ],
+    "word_count": 63,
+    "chunk_id": "GVC-VIS-004_024",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Exceptions",
+    "text": "Exceptions to visiting hours or visitor limits may be granted by ward staff for specific situations, such as when a patient needs extra family support. These exceptions are not automatic and should be discussed with the nursing staff in advance where possible.",
+    "pages": [
+      3
+    ],
+    "word_count": 42,
+    "chunk_id": "GVC-VIS-004_025",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Frequently Asked Questions",
+    "text": "Q: What are the general visiting hours? A: General visiting hours are from 8:00 AM to 8:00 PM every day. Q: How many visitors are allowed at one time? A: A maximum of two visitors may visit a patient at one time in the general ward, and one visitor at a time in the Intensive Care Unit. Q: Is visitor identification required? A: Yes. A valid identification document should be shown when requested at registration or by security staff. Q: What should a visitor do at the security desk? A: Visitors should register with their name and the name of the patient they are visiting, and collect a visitor pass before proceeding to the patient's room. Q: Can children visit patients? A: Yes, during general visiting hours, when accompanied and supervised by an adult. Q: What should I do if I lose my visitor pass? A: Report the lost pass to the security desk immediately, so a replacement can be issued after confirming your identity. Visitor Access Policy",
+    "pages": [
+      3,
+      4
+    ],
+    "word_count": 168,
+    "chunk_id": "GVC-VIS-004_026",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Contact Information",
+    "text": "For general questions about this policy, please contact the Administrative Services Desk.",
+    "pages": [
+      4
+    ],
+    "word_count": 12,
+    "chunk_id": "GVC-VIS-004_027",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Details",
+    "text": "Administrative Services Desk +1-555-010-2400 General Email info@greenvalleyhospital.example Hospital Address 25 Green Valley Road, Riverside District, New Harmony Desk Hours Monday to Saturday, 8:00 AM to 6:00 PM",
+    "pages": [
+      4
+    ],
+    "word_count": 27,
+    "chunk_id": "GVC-VIS-004_028",
+    "document": "04_visitor_access_policy.pdf",
+    "policy_id": "GVC-VIS-004"
+  },
+  {
+    "section": "Document Introduction",
+    "text": "Discharge Coordination Office",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-DIS-005_000",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Discharge Process Policy",
+    "text": "Policy ID: GVC-DIS-005",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-DIS-005_001",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Version:",
+    "text": "1.0 Effective Date: 1 January 2026",
+    "pages": [
+      1
+    ],
+    "word_count": 6,
+    "chunk_id": "GVC-DIS-005_002",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Review Date:",
+    "text": "1 January 2027",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-DIS-005_003",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Status:",
+    "text": "Active",
+    "pages": [
+      1
+    ],
+    "word_count": 1,
+    "chunk_id": "GVC-DIS-005_004",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Hospital:",
+    "text": "Green Valley Community Hospital",
+    "pages": [
+      1
+    ],
+    "word_count": 4,
+    "chunk_id": "GVC-DIS-005_005",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Purpose",
+    "text": "This policy describes the administrative steps a patient completes when leaving Green Valley Community Hospital after inpatient care. It focuses on administrative tasks, such as billing and document collection, and does not provide medical treatment instructions. The goal of this policy is to make the discharge process predictable, so that patients and families know what to expect and can plan ahead for the final steps of a hospital stay.",
+    "pages": [
+      1
+    ],
+    "word_count": 69,
+    "chunk_id": "GVC-DIS-005_006",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Scope",
+    "text": "This policy applies to all inpatients being discharged from Green Valley Community Hospital, and to family members assisting with the discharge process. It covers administrative discharge steps only. Any instructions about ongoing care after leaving the hospital are provided separately by the treating department and are not part of this administrative policy.",
+    "pages": [
+      1
+    ],
+    "word_count": 52,
+    "chunk_id": "GVC-DIS-005_007",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Discharge Request",
+    "text": "A discharge request is typically initiated by the treating department once care is complete. The Discharge Coordination Office is then notified and begins preparing the administrative steps needed before the patient can leave.",
+    "pages": [
+      1
+    ],
+    "word_count": 33,
+    "chunk_id": "GVC-DIS-005_008",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Discharge Preparation Steps",
+    "text": "Before leaving, patients should complete the following steps. 1 Complete final billing requirements at the billing desk. 2 Collect available discharge documents from the Discharge Coordination Office. 3 Confirm that personal belongings have been collected from the room. 4 Complete any required administrative signatures. These steps are usually completed in coordination with ward staff, the billing desk, and, where relevant, the Insurance Desk.",
+    "pages": [
+      1
+    ],
+    "word_count": 63,
+    "chunk_id": "GVC-DIS-005_009",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Final Billing and Insurance Coordination",
+    "text": "The final bill is prepared once treatment is complete and discharge has been approved, as described in the Billing and Payment Policy. If the patient used a cashless insurance request, the Discharge Coordination Office confirms with the Insurance Desk that coverage details have been finalized before the Discharge Process Policy final bill is issued. If insurance approval or final billing is still pending, discharge may be temporarily delayed. See the Discharge Delays section below for more information.",
+    "pages": [
+      1,
+      2
+    ],
+    "word_count": 77,
+    "chunk_id": "GVC-DIS-005_010",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Document Collection and Discharge Summary",
+    "text": "Before leaving, patients receive a discharge summary, which is an administrative document summarizing the dates of their stay and general administrative details. It is not a detailed medical record, and patients who need a copy of their broader administrative record should refer to the Patient Records Policy. Patients should also collect any receipts, billing statements, or insurance documents prepared during their stay, as these may be useful for personal records or future insurance claims.",
+    "pages": [
+      2
+    ],
+    "word_count": 74,
+    "chunk_id": "GVC-DIS-005_011",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Property Check and Room Clearance",
+    "text": "Before leaving the room, patients and family members should check that all personal belongings, such as clothing, personal items, and chargers, have been collected. Ward staff will perform a basic room clearance check together with the patient or a family member.",
+    "pages": [
+      2
+    ],
+    "word_count": 41,
+    "chunk_id": "GVC-DIS-005_012",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Patient Confirmation and Administrative Signatures",
+    "text": "As a final step, the patient or an authorized family member signs a discharge confirmation form. This form confirms that the patient has been informed of their discharge, has received available discharge documents, and has completed the property check.",
+    "pages": [
+      2
+    ],
+    "word_count": 39,
+    "chunk_id": "GVC-DIS-005_013",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Transport Arrangements",
+    "text": "Patients are responsible for arranging their own transport home unless other arrangements have been made in advance. The Discharge Coordination Office can provide general information about nearby transport options if requested, but does not arrange transport directly.",
+    "pages": [
+      2
+    ],
+    "word_count": 37,
+    "chunk_id": "GVC-DIS-005_014",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Discharge Delays",
+    "text": "Discharge may be delayed if final billing, insurance approval, or required documents are still being processed. When a delay occurs, the Discharge Coordination Office keeps the patient and family informed of the expected timeline and works with the billing desk and Insurance Desk to resolve outstanding items as quickly as possible.",
+    "pages": [
+      2
+    ],
+    "word_count": 51,
+    "chunk_id": "GVC-DIS-005_015",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Family Responsibilities",
+    "text": "Family members assisting with discharge are expected to help with collecting personal belongings, confirming administrative details, and, where needed, arranging transport home for the patient.",
+    "pages": [
+      2
+    ],
+    "word_count": 25,
+    "chunk_id": "GVC-DIS-005_016",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Post-Discharge Administrative Contact",
+    "text": "After discharge, patients or family members with administrative questions, such as a request for an additional copy of a receipt or discharge summary, can contact the Administrative Services Desk.",
+    "pages": [
+      2
+    ],
+    "word_count": 29,
+    "chunk_id": "GVC-DIS-005_017",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Typical Discharge Timeline",
+    "text": "While every stay is different, the table below gives a general sense of how discharge-related steps typically unfold once the treating department confirms a patient is ready to leave. Discharge Process Policy",
+    "pages": [
+      2,
+      3
+    ],
+    "word_count": 32,
+    "chunk_id": "GVC-DIS-005_018",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Typical Timing",
+    "text": "Discharge request initiated Once treatment is complete Final billing prepared Usually within a few hours of the request Discharge documents collected Same day, at the Discharge Coordination Office Property check and room clearance Just before leaving the room Discharge confirmation signed Final step before leaving the hospital",
+    "pages": [
+      3
+    ],
+    "word_count": 47,
+    "chunk_id": "GVC-DIS-005_019",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Responsibilities",
+    "text": "The Discharge Coordination Office is responsible for preparing discharge documents and coordinating with the billing desk and Insurance Desk. Patients and family members are responsible for completing the property check and administrative signatures before leaving. Ward staff also play a role in discharge by confirming that a patient's room and belongings are ready to be checked, and by notifying the Discharge Coordination Office when a patient is prepared to begin the final administrative steps. Clear coordination between these groups helps avoid unnecessary waiting on the day of discharge, since billing, insurance, and room clearance can often be prepared in parallel rather than one after another.",
+    "pages": [
+      3
+    ],
+    "word_count": 105,
+    "chunk_id": "GVC-DIS-005_020",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Exceptions",
+    "text": "In some cases, a patient may need to leave before all administrative steps are complete, for example due to an urgent personal matter. In these cases, the Discharge Coordination Office will note the outstanding steps and follow up with the patient afterward to complete them. Patients transferring to another facility follow a modified discharge process, where the Discharge Coordination Office prepares a shorter set of administrative documents suited to a transfer rather than a full return home, while final billing and insurance coordination continue as usual.",
+    "pages": [
+      3
+    ],
+    "word_count": 86,
+    "chunk_id": "GVC-DIS-005_021",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Frequently Asked Questions",
+    "text": "Q: What should be completed before discharge? A: Patients should complete final billing, collect available discharge documents, confirm personal belongings have been collected, and complete required administrative signatures. Q: What documents are provided during discharge? A: Patients receive a discharge summary along with any receipts, billing statements, or insurance documents prepared during their stay. Q: What happens after a patient is discharged? A: The patient completes the property check and signs a discharge confirmation form, then leaves the hospital; any remaining administrative questions can be directed to the Administrative Services Desk afterward. Q: What happens if discharge is delayed because of billing? A: The Discharge Coordination Office keeps the patient informed of the expected timeline and works with the billing desk to resolve outstanding items as quickly as possible. Q: Does the hospital arrange transport home? Discharge Process Policy A: No. Patients are responsible for arranging their own transport, though the Discharge Coordination Office can share general information about nearby options.",
+    "pages": [
+      3,
+      4
+    ],
+    "word_count": 161,
+    "chunk_id": "GVC-DIS-005_022",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Contact Information",
+    "text": "For general questions about this policy, please contact the Administrative Services Desk.",
+    "pages": [
+      4
+    ],
+    "word_count": 12,
+    "chunk_id": "GVC-DIS-005_023",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Details",
+    "text": "Administrative Services Desk +1-555-010-2400 General Email info@greenvalleyhospital.example Hospital Address 25 Green Valley Road, Riverside District, New Harmony Desk Hours Monday to Saturday, 8:00 AM to 6:00 PM",
+    "pages": [
+      4
+    ],
+    "word_count": 27,
+    "chunk_id": "GVC-DIS-005_024",
+    "document": "05_discharge_process_policy.pdf",
+    "policy_id": "GVC-DIS-005"
+  },
+  {
+    "section": "Document Introduction",
+    "text": "Human Resources / Administrative Office",
+    "pages": [
+      1
+    ],
+    "word_count": 5,
+    "chunk_id": "GVC-STA-006_000",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Staff Administrative Policy",
+    "text": "Policy ID: GVC-STA-006",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-STA-006_001",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Version:",
+    "text": "1.0 Effective Date: 1 January 2026",
+    "pages": [
+      1
+    ],
+    "word_count": 6,
+    "chunk_id": "GVC-STA-006_002",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Review Date:",
+    "text": "1 January 2027",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-STA-006_003",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Status:",
+    "text": "Active",
+    "pages": [
+      1
+    ],
+    "word_count": 1,
+    "chunk_id": "GVC-STA-006_004",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Hospital:",
+    "text": "Green Valley Community Hospital",
+    "pages": [
+      1
+    ],
+    "word_count": 4,
+    "chunk_id": "GVC-STA-006_005",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Purpose",
+    "text": "This policy explains internal administrative procedures for staff at Green Valley Community Hospital, including identification cards, attendance, leave requests, and shift change requests. It describes simple, fictional internal procedures and is not intended as formal employment law. The intent is to give staff members a clear, consistent reference for common administrative tasks, so that requests are submitted correctly and processed without unnecessary delay.",
+    "pages": [
+      1
+    ],
+    "word_count": 63,
+    "chunk_id": "GVC-STA-006_006",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Scope",
+    "text": "This policy applies to all staff members of Green Valley Community Hospital, including administrative staff, reception staff, and department staff who interact with the administrative office. It does not cover clinical protocols or department-specific training requirements, which are managed separately by each clinical department.",
+    "pages": [
+      1
+    ],
+    "word_count": 44,
+    "chunk_id": "GVC-STA-006_007",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Staff Identification Cards",
+    "text": "All staff members are issued a staff identification card when they join the hospital. The card should be worn visibly while on duty and is used to access certain staff areas. Lost or damaged identification cards should be reported to the administrative office as soon as possible so a replacement can be issued.",
+    "pages": [
+      1
+    ],
+    "word_count": 53,
+    "chunk_id": "GVC-STA-006_008",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Administrative Office Hours",
+    "text": "Administrative office hours are 9:00 AM to 5:00 PM, Monday to Friday. Staff with administrative requests, such as leave requests or record updates, should visit the administrative office during these hours whenever possible.",
+    "pages": [
+      1
+    ],
+    "word_count": 33,
+    "chunk_id": "GVC-STA-006_009",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Attendance",
+    "text": "Staff members are expected to record their attendance at the start and end of each shift using the hospital's attendance system. Any issues with recording attendance, such as a system error, should be reported to the administrative office the same day.",
+    "pages": [
+      1
+    ],
+    "word_count": 41,
+    "chunk_id": "GVC-STA-006_010",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Leave Requests",
+    "text": "Staff Administrative Policy Staff leave requests should be submitted through the administrative office at least two working days before the requested leave date whenever practical. Requests can be submitted using the standard leave request form, available at the administrative office.",
+    "pages": [
+      2
+    ],
+    "word_count": 40,
+    "chunk_id": "GVC-STA-006_011",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Leave Request Steps",
+    "text": "1 Complete the leave request form with the requested dates and reason. 2 Submit the form to the administrative office or to the staff member's department supervisor. 3 The administrative office reviews the request and confirms approval, usually within two working days. 4 Approved leave is recorded in the staff member's attendance record. For urgent or unplanned leave, such as sudden illness, staff members should inform their supervisor as soon as possible, even if the standard two-day notice cannot be met.",
+    "pages": [
+      2
+    ],
+    "word_count": 81,
+    "chunk_id": "GVC-STA-006_012",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Shift Change Requests",
+    "text": "Staff members wishing to change an assigned shift should submit a shift change request to their department supervisor, who will coordinate with the administrative office to confirm the change. Shift change requests should be submitted as early as possible to allow time for department scheduling adjustments.",
+    "pages": [
+      2
+    ],
+    "word_count": 46,
+    "chunk_id": "GVC-STA-006_013",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Staff Records and Department Transfers",
+    "text": "The administrative office maintains basic staff records, including contact information, department assignment, and attendance history. Staff members can request to review or update their own record by contacting the administrative office. Requests for a department transfer should be submitted in writing to the administrative office, along with the reason for the request. Department transfers are coordinated between the current and receiving department supervisors.",
+    "pages": [
+      2
+    ],
+    "word_count": 63,
+    "chunk_id": "GVC-STA-006_014",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Internal Communication",
+    "text": "General announcements and administrative updates are shared through the internal staff notice board and, where available, the internal staff email list. Staff members are encouraged to check these channels regularly.",
+    "pages": [
+      2
+    ],
+    "word_count": 30,
+    "chunk_id": "GVC-STA-006_015",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Workplace Conduct",
+    "text": "Staff members are expected to treat patients, visitors, and colleagues with respect and to follow hospital procedures at all times. Concerns about workplace conduct can be raised confidentially with the administrative office.",
+    "pages": [
+      2
+    ],
+    "word_count": 32,
+    "chunk_id": "GVC-STA-006_016",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Request Submission and Approval Process",
+    "text": "Most administrative requests, including leave requests, shift change requests, and record updates, follow a similar basic process: the staff member submits a request, the administrative office or relevant supervisor reviews it, and a confirmation is provided once the request is approved.",
+    "pages": [
+      2
+    ],
+    "word_count": 41,
+    "chunk_id": "GVC-STA-006_017",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Typical Response Time",
+    "text": "Leave request Administrative office Within two working days Staff Administrative Policy",
+    "pages": [
+      2,
+      3
+    ],
+    "word_count": 11,
+    "chunk_id": "GVC-STA-006_018",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Typical Response Time",
+    "text": "Shift change request Department supervisor Depends on scheduling needs Record update Administrative office Same day, when possible Department transfer request Administrative office, in writing Coordinated between departments",
+    "pages": [
+      3
+    ],
+    "word_count": 27,
+    "chunk_id": "GVC-STA-006_019",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Administrative Support",
+    "text": "The administrative office can assist staff with general questions about hospital procedures, staff records, and how to submit various requests. Staff members are encouraged to reach out whenever they are unsure about a process. For questions that involve more than one department, such as a shift change that also affects a leave request already on file, the administrative office will coordinate directly with the relevant supervisors so the staff member does not need to submit the same information twice.",
+    "pages": [
+      3
+    ],
+    "word_count": 79,
+    "chunk_id": "GVC-STA-006_020",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "New Staff Orientation",
+    "text": "New staff members receive a short administrative orientation during their first week, covering how to use the attendance system, where to collect their identification card, and how to submit common requests such as leave or shift changes. This orientation is arranged by the administrative office in coordination with the new staff member's department supervisor.",
+    "pages": [
+      3
+    ],
+    "word_count": 54,
+    "chunk_id": "GVC-STA-006_021",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Responsibilities",
+    "text": "The administrative office is responsible for processing leave requests, maintaining staff records, and supporting internal communication. Staff members are responsible for submitting requests in a timely manner and keeping their personal information up to date. Department supervisors are responsible for reviewing shift change requests promptly and for making sure their team is aware of this policy, particularly for new staff members during their first weeks at the hospital.",
+    "pages": [
+      3
+    ],
+    "word_count": 68,
+    "chunk_id": "GVC-STA-006_022",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Exceptions",
+    "text": "Urgent or unplanned leave, such as sudden illness, is handled outside the standard two-day notice period, as described in the Leave Requests section. Other exceptions to standard timelines may be granted by the administrative office on a case-by-case basis. Staff working in departments with unusual scheduling needs, such as rotating shift patterns, may follow a slightly adjusted leave notice period agreed in advance between the department supervisor and the administrative office.",
+    "pages": [
+      3
+    ],
+    "word_count": 71,
+    "chunk_id": "GVC-STA-006_023",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Frequently Asked Questions",
+    "text": "Q: How can staff request leave? A: Staff should submit a leave request form to the administrative office at least two working days before the requested leave date, whenever practical. Q: How are shift change requests submitted? A: Shift change requests are submitted to the department supervisor, who coordinates with the administrative office to confirm the change. Staff Administrative Policy Q: What are the staff administrative office hours? A: The administrative office is open from 9:00 AM to 5:00 PM, Monday to Friday. Q: What should I do if I lose my staff identification card? A: Report the lost or damaged card to the administrative office as soon as possible so a replacement can be issued. Q: How long does a leave request take to be approved? A: Leave requests are usually reviewed and confirmed within two working days. Q: How can a staff member request a department transfer? A: Submit a written request to the administrative office, including the reason for the request; the transfer is then coordinated between the relevant departments.",
+    "pages": [
+      3,
+      4
+    ],
+    "word_count": 173,
+    "chunk_id": "GVC-STA-006_024",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Contact Information",
+    "text": "For general questions about this policy, please contact the Administrative Services Desk.",
+    "pages": [
+      4
+    ],
+    "word_count": 12,
+    "chunk_id": "GVC-STA-006_025",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Details",
+    "text": "Administrative Services Desk +1-555-010-2400 General Email info@greenvalleyhospital.example Hospital Address 25 Green Valley Road, Riverside District, New Harmony Desk Hours Monday to Saturday, 8:00 AM to 6:00 PM",
+    "pages": [
+      4
+    ],
+    "word_count": 27,
+    "chunk_id": "GVC-STA-006_026",
+    "document": "06_staff_administrative_policy.pdf",
+    "policy_id": "GVC-STA-006"
+  },
+  {
+    "section": "Document Introduction",
+    "text": "Administrative Governance Office",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-GOV-007_000",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Governance and Meetings Policy",
+    "text": "Policy ID: GVC-GOV-007",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-GOV-007_001",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Version:",
+    "text": "1.0 Effective Date: 1 January 2026",
+    "pages": [
+      1
+    ],
+    "word_count": 6,
+    "chunk_id": "GVC-GOV-007_002",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Review Date:",
+    "text": "1 January 2027",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-GOV-007_003",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Status:",
+    "text": "Active",
+    "pages": [
+      1
+    ],
+    "word_count": 1,
+    "chunk_id": "GVC-GOV-007_004",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Hospital:",
+    "text": "Green Valley Community Hospital",
+    "pages": [
+      1
+    ],
+    "word_count": 4,
+    "chunk_id": "GVC-GOV-007_005",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Purpose",
+    "text": "This policy describes how department meetings are scheduled and run at Green Valley Community Hospital, including how agendas and minutes are prepared. It is intended to keep internal governance simple and easy to follow. Consistent, well-recorded meetings help departments track decisions over time and make sure that action items are not forgotten between one meeting and the next.",
+    "pages": [
+      1
+    ],
+    "word_count": 58,
+    "chunk_id": "GVC-GOV-007_006",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Scope",
+    "text": "This policy applies to regular department meetings and other administrative meetings held within Green Valley Community Hospital. It does not apply to informal day-to-day conversations between staff, or to clinical case discussions, which follow separate clinical procedures outside this administrative policy.",
+    "pages": [
+      1
+    ],
+    "word_count": 41,
+    "chunk_id": "GVC-GOV-007_007",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Meeting Schedules",
+    "text": "Department meetings are normally held once every month. Each department chooses a regular day and time for its monthly meeting, and this schedule is shared with staff in advance through the internal staff notice board. In addition to monthly department meetings, the Administrative Governance Office holds a general administrative meeting every three months to review hospital-wide administrative matters.",
+    "pages": [
+      1
+    ],
+    "word_count": 58,
+    "chunk_id": "GVC-GOV-007_008",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Meeting Agendas",
+    "text": "Meeting agendas should be submitted before the meeting, usually at least two working days in advance, so that the administrative coordinator can prepare and circulate the agenda to attendees.",
+    "pages": [
+      1
+    ],
+    "word_count": 29,
+    "chunk_id": "GVC-GOV-007_009",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "•",
+    "text": "A list of topics to be discussed, in order.",
+    "pages": [
+      1
+    ],
+    "word_count": 9,
+    "chunk_id": "GVC-GOV-007_010",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "•",
+    "text": "The name of the person presenting each topic.",
+    "pages": [
+      1
+    ],
+    "word_count": 8,
+    "chunk_id": "GVC-GOV-007_011",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "•",
+    "text": "An estimated time for each topic, where practical.",
+    "pages": [
+      1
+    ],
+    "word_count": 8,
+    "chunk_id": "GVC-GOV-007_012",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "•",
+    "text": "Any documents or reports attendees should review beforehand.",
+    "pages": [
+      1
+    ],
+    "word_count": 8,
+    "chunk_id": "GVC-GOV-007_013",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Agenda Submission",
+    "text": "Governance and Meetings Policy Staff members wishing to add a topic to an upcoming meeting agenda should submit it to their department's administrative coordinator before the agenda submission deadline. Topics submitted after the deadline may be added to the following meeting instead.",
+    "pages": [
+      2
+    ],
+    "word_count": 42,
+    "chunk_id": "GVC-GOV-007_014",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Attendance",
+    "text": "Staff members expected to attend a meeting should confirm their attendance when the agenda is circulated. If a staff member cannot attend, they should inform the meeting organizer in advance so that any topics relevant to them can be addressed appropriately. For staff members who are unable to attend but still need to be informed of decisions, the meeting organizer can arrange for minutes to be sent to them directly once the meeting has concluded, rather than waiting for the standard general distribution.",
+    "pages": [
+      2
+    ],
+    "word_count": 83,
+    "chunk_id": "GVC-GOV-007_015",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Minutes and Meeting Records",
+    "text": "Minutes should summarize major decisions and assigned action items. Meeting records are maintained by the administrative coordinator, who is responsible for preparing and distributing minutes after each meeting. Minutes are usually shared with attendees within three working days after a meeting. Staff members who attended can review the minutes and flag any corrections needed.",
+    "pages": [
+      2
+    ],
+    "word_count": 54,
+    "chunk_id": "GVC-GOV-007_016",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Action Items and Follow-Up",
+    "text": "Action items identified during a meeting are recorded in the minutes, along with the name of the person responsible and, where possible, a target completion date. Follow-up on action items is usually reviewed at the start of the next meeting.",
+    "pages": [
+      2
+    ],
+    "word_count": 40,
+    "chunk_id": "GVC-GOV-007_017",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "When",
+    "text": "Agenda Administrative coordinator Before the meeting, based on submitted topics Minutes Administrative coordinator Within three working days after the meeting Action item follow-up Administrative coordinator and responsible staff Reviewed at the next meeting",
+    "pages": [
+      2
+    ],
+    "word_count": 33,
+    "chunk_id": "GVC-GOV-007_018",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Meeting Responsibilities",
+    "text": "The meeting organizer, usually a department supervisor or the administrative coordinator, is responsible for scheduling the meeting, confirming the agenda, and ensuring minutes are prepared afterward. Attendees are responsible for reviewing the agenda in advance and completing any assigned action items. Each department should also designate a backup person who can take minutes if the usual administrative coordinator is unavailable, so that meeting records remain consistent even when key staff are on leave.",
+    "pages": [
+      2
+    ],
+    "word_count": 73,
+    "chunk_id": "GVC-GOV-007_019",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Special Meetings",
+    "text": "Special meetings can be called outside the regular monthly schedule when an urgent administrative matter needs to be discussed. Special meetings follow the same basic process as regular meetings, though the agenda submission deadline may be shortened depending on the urgency. Governance and Meetings Policy Because special meetings are often called on short notice, attendees are asked to make a reasonable effort to attend or to send a representative, since the matters discussed are usually time-sensitive.",
+    "pages": [
+      2,
+      3
+    ],
+    "word_count": 76,
+    "chunk_id": "GVC-GOV-007_020",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Meeting Cancellation",
+    "text": "If a scheduled meeting needs to be cancelled, the meeting organizer should inform attendees as early as possible, and, where relevant, propose a new date. Cancelled meetings are noted in the department's meeting records.",
+    "pages": [
+      3
+    ],
+    "word_count": 34,
+    "chunk_id": "GVC-GOV-007_021",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Meeting Records Storage",
+    "text": "Completed agendas and minutes are stored by the administrative coordinator in the department's meeting records, organized by date. Staff members can request to review past meeting records for their own department by contacting the administrative coordinator. Keeping organized meeting records also helps new staff members get up to speed quickly, since they can review recent minutes to understand ongoing action items and decisions relevant to their department.",
+    "pages": [
+      3
+    ],
+    "word_count": 67,
+    "chunk_id": "GVC-GOV-007_022",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Responsibilities",
+    "text": "The Administrative Governance Office is responsible for supporting departments in scheduling meetings and maintaining consistent meeting records across the hospital. Department supervisors are responsible for ensuring their department holds regular meetings and that minutes are properly recorded. Attendees share responsibility for keeping meetings productive by reviewing the agenda beforehand, arriving on time, and completing any action items assigned to them before the next meeting.",
+    "pages": [
+      3
+    ],
+    "word_count": 64,
+    "chunk_id": "GVC-GOV-007_023",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Exceptions",
+    "text": "Departments with unusually light administrative workloads may request approval from the Administrative Governance Office to hold meetings less frequently than monthly. This exception is reviewed periodically to confirm it remains appropriate. During unusually busy periods, a department may also request approval to hold an additional meeting outside the regular monthly schedule, using the same process described for special meetings.",
+    "pages": [
+      3
+    ],
+    "word_count": 59,
+    "chunk_id": "GVC-GOV-007_024",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Frequently Asked Questions",
+    "text": "Q: How often are department meetings held? A: Department meetings are normally held once every month. Q: Who prepares meeting minutes? A: Meeting minutes are prepared by the administrative coordinator, who also maintains the department's meeting records. Q: What information should a meeting agenda contain? A: An agenda should list the topics to be discussed, who is presenting each topic, an estimated time for each topic, and any documents attendees should review beforehand. Q: When are minutes shared after a meeting? A: Minutes are usually shared with attendees within three working days after the meeting. Q: Can a special meeting be called outside the regular schedule? Governance and Meetings Policy A: Yes. Special meetings can be called for urgent administrative matters and follow the same basic process as regular meetings. Q: What happens to action items after a meeting? A: Action items are recorded in the minutes along with the responsible person, and follow-up is usually reviewed at the next meeting.",
+    "pages": [
+      3,
+      4
+    ],
+    "word_count": 161,
+    "chunk_id": "GVC-GOV-007_025",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Contact Information",
+    "text": "For general questions about this policy, please contact the Administrative Services Desk.",
+    "pages": [
+      4
+    ],
+    "word_count": 12,
+    "chunk_id": "GVC-GOV-007_026",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Details",
+    "text": "Administrative Services Desk +1-555-010-2400 General Email info@greenvalleyhospital.example Hospital Address 25 Green Valley Road, Riverside District, New Harmony Desk Hours Monday to Saturday, 8:00 AM to 6:00 PM",
+    "pages": [
+      4
+    ],
+    "word_count": 27,
+    "chunk_id": "GVC-GOV-007_027",
+    "document": "07_governance_meetings_policy.pdf",
+    "policy_id": "GVC-GOV-007"
+  },
+  {
+    "section": "Document Introduction",
+    "text": "Medical Records Office",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-REC-008_000",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Patient Records and Document Request Policy",
+    "text": "Policy ID: GVC-REC-008",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-REC-008_001",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Version:",
+    "text": "1.0 Effective Date: 1 January 2026",
+    "pages": [
+      1
+    ],
+    "word_count": 6,
+    "chunk_id": "GVC-REC-008_002",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Review Date:",
+    "text": "1 January 2027",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-REC-008_003",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Status:",
+    "text": "Active",
+    "pages": [
+      1
+    ],
+    "word_count": 1,
+    "chunk_id": "GVC-REC-008_004",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Hospital:",
+    "text": "Green Valley Community Hospital",
+    "pages": [
+      1
+    ],
+    "word_count": 4,
+    "chunk_id": "GVC-REC-008_005",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Purpose",
+    "text": "This policy explains how patients can request a copy of their administrative hospital records at Green Valley Community Hospital, what identification is needed, and how corrections can be requested. It describes simple, fictional privacy rules and does not represent real-world legal requirements. The policy is meant to give patients a clear, predictable path for accessing their own administrative information, while keeping that information protected from unauthorized access.",
+    "pages": [
+      1
+    ],
+    "word_count": 67,
+    "chunk_id": "GVC-REC-008_006",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Scope",
+    "text": "This policy applies to patients requesting a copy of their own administrative records, and to authorized representatives requesting records on behalf of a patient. It applies specifically to administrative records. Requests for detailed clinical notes follow a separate process managed by the treating clinical department, since those records involve additional clinical context.",
+    "pages": [
+      1
+    ],
+    "word_count": 52,
+    "chunk_id": "GVC-REC-008_007",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Patient Administrative Records",
+    "text": "registration details, admission and discharge dates, billing statements, and general visit history. These administrative records are separate from detailed clinical notes, which are handled by clinical departments and are outside the scope of this policy.",
+    "pages": [
+      1
+    ],
+    "word_count": 35,
+    "chunk_id": "GVC-REC-008_008",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Requesting Records",
+    "text": "A patient requesting a copy of their administrative record should provide identification and complete the hospital's record request form, available at the Medical Records Office or the Administrative Services Desk.",
+    "pages": [
+      1
+    ],
+    "word_count": 30,
+    "chunk_id": "GVC-REC-008_009",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Record Request Steps",
+    "text": "1 Complete the record request form, including the patient reference number if known. 2 Provide identification confirming the requester's identity. 3 Submit the form to the Medical Records Office in person, by mail, or by email. 4 The Medical Records Office reviews the request and prepares the requested record.",
+    "pages": [
+      1
+    ],
+    "word_count": 49,
+    "chunk_id": "GVC-REC-008_010",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Identity Verification",
+    "text": "Patient Records and Document Request Policy To protect patient information, the Medical Records Office verifies the identity of anyone requesting a record. Patients requesting their own record should present a valid identification document matching the name on file.",
+    "pages": [
+      2
+    ],
+    "word_count": 38,
+    "chunk_id": "GVC-REC-008_011",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Authorized Representatives",
+    "text": "A family member or other authorized representative can request records on behalf of a patient, provided they present their own identification along with written authorization from the patient, where the patient is able to provide it. In cases where the patient cannot provide written authorization, such as a minor or a patient unable to communicate, the Medical Records Office follows a simplified verification process based on the relationship to the patient.",
+    "pages": [
+      2
+    ],
+    "word_count": 71,
+    "chunk_id": "GVC-REC-008_012",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Request Submission and Processing Timeline",
+    "text": "Record requests can be submitted in person at the Medical Records Office, by email, or by regular mail. Most standard administrative record requests are processed within five working days from the date the request and identification are received.",
+    "pages": [
+      2
+    ],
+    "word_count": 38,
+    "chunk_id": "GVC-REC-008_013",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Typical Processing Time",
+    "text": "Copy of discharge summary 1 to 2 working days Copy of billing statement Same day, at the billing desk Full administrative record Up to 5 working days Correction request 5 to 7 working days, for review",
+    "pages": [
+      2
+    ],
+    "word_count": 36,
+    "chunk_id": "GVC-REC-008_014",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Digital and Printed Records",
+    "text": "Patients can choose to receive their administrative record as a printed copy or, where available, as a digital copy sent to their registered email address. Requests for a digital copy should specify the preferred email address, which may need to be confirmed for security reasons.",
+    "pages": [
+      2
+    ],
+    "word_count": 45,
+    "chunk_id": "GVC-REC-008_015",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Record Correction Requests",
+    "text": "If a patient notices incorrect information in their administrative record, such as a misspelled name or an incorrect address, they can submit a correction request to the Medical Records Office. Correction requests are reviewed against the original registration information before being approved.",
+    "pages": [
+      2
+    ],
+    "word_count": 42,
+    "chunk_id": "GVC-REC-008_016",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Missing Information and Document Collection",
+    "text": "If part of a requested record is missing or incomplete, the Medical Records Office will inform the requester and provide the available information while continuing to look for any missing parts. Patients collecting a printed record in person should bring identification matching the original request.",
+    "pages": [
+      2
+    ],
+    "word_count": 45,
+    "chunk_id": "GVC-REC-008_017",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Record Privacy",
+    "text": "Patient administrative records are treated as private information and are only shared with the patient, an authorized representative, or hospital staff who need the information to provide administrative services. Records are not shared with outside parties without the patient's consent, except where the hospital's internal procedures specifically require it. Patient Records and Document Request Policy",
+    "pages": [
+      2,
+      3
+    ],
+    "word_count": 55,
+    "chunk_id": "GVC-REC-008_018",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Record Retention",
+    "text": "Administrative records are generally kept on file for a reasonable period after a patient's last visit, so that patients can request copies even some time after discharge. Patients needing a very old record are encouraged to contact the Medical Records Office directly, since retrieval time can vary for older records. Where a record has been archived rather than kept in active storage, the Medical Records Office will let the requester know and provide a revised estimate for when the record can be made available.",
+    "pages": [
+      3
+    ],
+    "word_count": 84,
+    "chunk_id": "GVC-REC-008_019",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Responsibilities",
+    "text": "The Medical Records Office is responsible for verifying identity, processing record requests, and maintaining accurate administrative records. Patients and authorized representatives are responsible for providing accurate identification and completing the record request form. Both the Medical Records Office and the requester share responsibility for accuracy: the office verifies details against what is on file, and the requester should promptly flag anything that looks incorrect once a record is received.",
+    "pages": [
+      3
+    ],
+    "word_count": 69,
+    "chunk_id": "GVC-REC-008_020",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Exceptions",
+    "text": "In urgent situations, such as a patient needing a discharge summary quickly for an appointment elsewhere, the Medical Records Office may expedite a request beyond the standard timeline, subject to identity verification still being completed. Requests involving unusually old or incomplete records may take longer than the standard timeline, since additional time may be needed to locate archived information. The Medical Records Office will inform the requester if a longer timeline applies.",
+    "pages": [
+      3
+    ],
+    "word_count": 72,
+    "chunk_id": "GVC-REC-008_021",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Frequently Asked Questions",
+    "text": "Q: How can a patient request a copy of their records? A: Patients should complete the hospital's record request form at the Medical Records Office or Administrative Services Desk and provide identification. Q: What identification is needed for a record request? A: A valid identification document matching the name on file is needed; authorized representatives also need their own identification and, where possible, written authorization from the patient. Q: How can a patient request correction of an administrative record? A: Patients can submit a correction request to the Medical Records Office, which reviews it against the original registration information before approving the change. Q: How long does a record request take? A: Most standard administrative record requests are processed within five working days, though some items, such as a discharge summary, may be available sooner. Q: Can a family member request records on behalf of a patient? A: Yes, if they present their own identification along with written authorization from the patient, where the patient is able to provide it.",
+    "pages": [
+      3
+    ],
+    "word_count": 170,
+    "chunk_id": "GVC-REC-008_022",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Contact Information",
+    "text": "Patient Records and Document Request Policy For general questions about this policy, please contact the Administrative Services Desk.",
+    "pages": [
+      4
+    ],
+    "word_count": 18,
+    "chunk_id": "GVC-REC-008_023",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Details",
+    "text": "Administrative Services Desk +1-555-010-2400 General Email info@greenvalleyhospital.example Hospital Address 25 Green Valley Road, Riverside District, New Harmony Desk Hours Monday to Saturday, 8:00 AM to 6:00 PM",
+    "pages": [
+      4
+    ],
+    "word_count": 27,
+    "chunk_id": "GVC-REC-008_024",
+    "document": "08_patient_records_policy.pdf",
+    "policy_id": "GVC-REC-008"
+  },
+  {
+    "section": "Document Introduction",
+    "text": "Outpatient Desk",
+    "pages": [
+      1
+    ],
+    "word_count": 2,
+    "chunk_id": "GVC-APT-009_000",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Appointments and Outpatient Policy",
+    "text": "Policy ID: GVC-APT-009",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-APT-009_001",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Version:",
+    "text": "1.0 Effective Date: 1 January 2026",
+    "pages": [
+      1
+    ],
+    "word_count": 6,
+    "chunk_id": "GVC-APT-009_002",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Review Date:",
+    "text": "1 January 2027",
+    "pages": [
+      1
+    ],
+    "word_count": 3,
+    "chunk_id": "GVC-APT-009_003",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Status:",
+    "text": "Active",
+    "pages": [
+      1
+    ],
+    "word_count": 1,
+    "chunk_id": "GVC-APT-009_004",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Hospital:",
+    "text": "Green Valley Community Hospital",
+    "pages": [
+      1
+    ],
+    "word_count": 4,
+    "chunk_id": "GVC-APT-009_005",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Purpose",
+    "text": "This policy explains how outpatient appointments are booked, confirmed, rescheduled, and cancelled at The policy is intended to help outpatients plan their visits with confidence, and to help the outpatient desk manage the daily appointment schedule fairly for all patients.",
+    "pages": [
+      1
+    ],
+    "word_count": 40,
+    "chunk_id": "GVC-APT-009_006",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Scope",
+    "text": "This policy applies to all patients booking or attending outpatient appointments at Green Valley Community Hospital. It does not apply to inpatient admissions, which are covered separately by the Admission and Registration Policy, or to emergency visits, which do not require a booked appointment.",
+    "pages": [
+      1
+    ],
+    "word_count": 44,
+    "chunk_id": "GVC-APT-009_007",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Appointment Booking",
+    "text": "Appointments can be requested through the outpatient desk, either in person, by phone during desk hours, or, where available, through the hospital's online appointment request form. The outpatient desk operates from 8:00 AM to 6:00 PM, Monday to Saturday.",
+    "pages": [
+      1
+    ],
+    "word_count": 39,
+    "chunk_id": "GVC-APT-009_008",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "New Appointments",
+    "text": "Patients booking an appointment for the first time should provide their name, contact details, and a general reason for the visit. The outpatient desk will confirm the earliest available appointment slot and provide an appointment reference.",
+    "pages": [
+      1
+    ],
+    "word_count": 36,
+    "chunk_id": "GVC-APT-009_009",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Returning Appointments",
+    "text": "Returning patients can book a follow-up appointment using their existing patient reference number, which helps the outpatient desk quickly locate their basic details and previous visit history.",
+    "pages": [
+      1
+    ],
+    "word_count": 27,
+    "chunk_id": "GVC-APT-009_010",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Appointment Confirmation",
+    "text": "Patients should confirm appointment details before the visit, including the date, time, and department. Confirmation messages are sent by phone or email, where contact details are available, usually one day before the scheduled appointment. Appointments and Outpatient Policy",
+    "pages": [
+      1,
+      2
+    ],
+    "word_count": 38,
+    "chunk_id": "GVC-APT-009_011",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Outpatient Registration",
+    "text": "On the day of the appointment, patients should check in at the outpatient desk at least 15 minutes before their scheduled time. Outpatient registration confirms the patient's identity and appointment details before directing them to the waiting area.",
+    "pages": [
+      2
+    ],
+    "word_count": 38,
+    "chunk_id": "GVC-APT-009_012",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Rescheduling",
+    "text": "Patients who cannot attend should contact the outpatient desk to reschedule. Rescheduling requests are handled on a first-come, first-served basis, and patients are encouraged to reschedule as early as possible to secure a convenient new slot.",
+    "pages": [
+      2
+    ],
+    "word_count": 36,
+    "chunk_id": "GVC-APT-009_013",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "How to Reschedule",
+    "text": "1 Contact the outpatient desk by phone or in person. 2 Provide the original appointment reference number. 3 Choose a new available date and time from the options offered. 4 Receive a new appointment confirmation.",
+    "pages": [
+      2
+    ],
+    "word_count": 35,
+    "chunk_id": "GVC-APT-009_014",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Cancellation",
+    "text": "Appointments can be cancelled by contacting the outpatient desk. Patients are encouraged to cancel as early as possible if they know they cannot attend, so the time slot can be offered to another patient.",
+    "pages": [
+      2
+    ],
+    "word_count": 34,
+    "chunk_id": "GVC-APT-009_015",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Late Arrival",
+    "text": "Patients arriving significantly late may need to request a new appointment slot, since later appointments may already be scheduled for other patients. The outpatient desk will do its best to fit in a patient who arrives only a few minutes late, depending on how busy the schedule is that day.",
+    "pages": [
+      2
+    ],
+    "word_count": 50,
+    "chunk_id": "GVC-APT-009_016",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Typical Outcome",
+    "text": "A few minutes late Usually seen as originally scheduled, subject to availability Significantly late May be asked to reschedule for a later time or another day Unable to attend at all Should contact the outpatient desk to cancel or reschedule",
+    "pages": [
+      2
+    ],
+    "word_count": 40,
+    "chunk_id": "GVC-APT-009_017",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Waiting Area",
+    "text": "Patients are asked to wait in the outpatient waiting area after checking in. Names or appointment numbers are called in order, though actual wait times can vary depending on how the day's schedule is progressing.",
+    "pages": [
+      2
+    ],
+    "word_count": 35,
+    "chunk_id": "GVC-APT-009_018",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Appointment Records",
+    "text": "The outpatient desk keeps a record of appointment history for each patient, including booked, completed, rescheduled, and cancelled appointments. Patients can ask the outpatient desk for a summary of their appointment history if needed.",
+    "pages": [
+      2
+    ],
+    "word_count": 34,
+    "chunk_id": "GVC-APT-009_019",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Missed Appointments",
+    "text": "Appointments and Outpatient Policy If a patient misses an appointment without contacting the outpatient desk in advance, the appointment is recorded as missed, and the patient will need to book a new appointment through the usual booking process. Patients who miss appointments frequently may be asked to confirm appointments a little further in advance for future bookings. A missed appointment can also affect scheduling for other patients, since the reserved time slot could otherwise have been offered to someone on a waiting list. For this reason, even a short notice cancellation is more helpful than no notice at all.",
+    "pages": [
+      3
+    ],
+    "word_count": 99,
+    "chunk_id": "GVC-APT-009_020",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Contacting the Outpatient Desk",
+    "text": "Patients can reach the outpatient desk by phone during desk hours, in person at the outpatient reception area, or through the online appointment request form where available. For urgent same-day changes, calling the outpatient desk directly is usually the fastest option. Patients who are unsure which department to book an appointment with can describe their general concern to the outpatient desk, and staff will help direct the request to the appropriate department for scheduling.",
+    "pages": [
+      3
+    ],
+    "word_count": 74,
+    "chunk_id": "GVC-APT-009_021",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Responsibilities",
+    "text": "The Outpatient Desk is responsible for booking, confirming, and recording appointments. Patients are responsible for attending on time or contacting the outpatient desk promptly if they need to reschedule or cancel. Both the Outpatient Desk and the patient benefit from clear communication: the desk aims to send timely confirmations, and patients are encouraged to update their contact details if these ever change, so confirmations reach them reliably.",
+    "pages": [
+      3
+    ],
+    "word_count": 67,
+    "chunk_id": "GVC-APT-009_022",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Exceptions",
+    "text": "In situations where a patient's condition changes and an earlier appointment is needed, the outpatient desk will try to accommodate an earlier slot where possible, based on availability. Patients with a recurring series of follow-up appointments, such as regular check-ins for an ongoing administrative or billing matter, can ask the outpatient desk about booking several appointments in advance to simplify future scheduling.",
+    "pages": [
+      3
+    ],
+    "word_count": 62,
+    "chunk_id": "GVC-APT-009_023",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Frequently Asked Questions",
+    "text": "Q: How do I reschedule an outpatient appointment? A: Contact the outpatient desk with your original appointment reference number and choose a new available date and time. Q: What happens if a patient misses an appointment? A: The appointment is recorded as missed, and the patient will need to book a new appointment through the usual booking process. Q: How early should I arrive for my appointment? A: Patients should check in at the outpatient desk at least 15 minutes before their scheduled appointment time. Q: What are the outpatient desk hours? Appointments and Outpatient Policy A: The outpatient desk operates from 8:00 AM to 6:00 PM, Monday to Saturday. Q: Can I book a follow-up appointment using my patient reference number? A: Yes. Returning patients can use their existing patient reference number to book a follow-up appointment more quickly. Q: What happens if I arrive significantly late? A: You may need to request a new appointment slot, depending on how busy the schedule is that day.",
+    "pages": [
+      3,
+      4
+    ],
+    "word_count": 167,
+    "chunk_id": "GVC-APT-009_024",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Contact Information",
+    "text": "For general questions about this policy, please contact the Administrative Services Desk.",
+    "pages": [
+      4
+    ],
+    "word_count": 12,
+    "chunk_id": "GVC-APT-009_025",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  },
+  {
+    "section": "Details",
+    "text": "Administrative Services Desk +1-555-010-2400 General Email info@greenvalleyhospital.example Hospital Address 25 Green Valley Road, Riverside District, New Harmony Desk Hours Monday to Saturday, 8:00 AM to 6:00 PM",
+    "pages": [
+      4
+    ],
+    "word_count": 27,
+    "chunk_id": "GVC-APT-009_026",
+    "document": "09_appointments_outpatient_policy.pdf",
+    "policy_id": "GVC-APT-009"
+  }
+]
