@@ -6,4 +6,6 @@ joblib
 google-genai
 python-dotenv
 fastapi
-uvicorn[standard]
+uvicorn[standard]
+pydantic
+gunicorn

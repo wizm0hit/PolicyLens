@@ -11,15 +11,9 @@ from google import genai
 load_dotenv()
 
 
-API_KEY = os.getenv("GEMINI_API_KEY")
-
-
-if not API_KEY:
-
-    raise ValueError(
-        "GEMINI_API_KEY was not found. "
-        "Please add it to your .env file."
-    )
+def get_api_key():
+    """Retrieve Gemini API key dynamically from environment."""
+    return os.getenv("GEMINI_API_KEY")
 
 
 # ---------------------------------------------------------
@@ -27,15 +21,19 @@ if not API_KEY:
 # ---------------------------------------------------------
 
 CANDIDATE_MODELS = [
-    "gemini-3.5-flash",
-    "gemini-3.5-flash-lite",
-    "gemini-flash-latest",
-    "gemini-3.6-flash",
+    "gemini-2.5-flash",
+    "gemini-2.0-flash",
+    "gemini-1.5-flash",
+    "gemini-2.0-flash-lite",
+    "gemini-1.5-pro",
 ]
 
 def get_client():
     """Create a fresh Gemini client instance to avoid closed-client errors."""
-    return genai.Client(api_key=API_KEY)
+    api_key = get_api_key()
+    if not api_key:
+        return None
+    return genai.Client(api_key=api_key)
 
 
 # ---------------------------------------------------------
@@ -97,12 +95,20 @@ ANSWER:
     # Call Gemini with fallback models & retry
     # -----------------------------------------------------
 
+    if not get_api_key():
+        return (
+            "GEMINI_API_KEY is not configured on the server. "
+            "Please set the GEMINI_API_KEY environment variable in your deployment settings."
+        )
+
     last_error = None
 
     for model_name in CANDIDATE_MODELS:
         for attempt in range(2):
             try:
                 client = get_client()
+                if not client:
+                    continue
                 response = client.models.generate_content(
                     model=model_name,
                     contents=prompt

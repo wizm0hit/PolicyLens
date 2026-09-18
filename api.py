@@ -63,16 +63,18 @@ app = FastAPI(
 )
 
 
+from typing import Optional, List
+
 # ---------------------------------------------------------
-# CORS — allow the frontend origin during development
+# CORS — allow frontend origin during development & production
 # ---------------------------------------------------------
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],          # tightened for production
-    allow_credentials=True,
-    allow_methods=["GET", "POST", "OPTIONS"],
-    allow_headers=["Content-Type"],
+    allow_origins=["*"],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
@@ -91,10 +93,10 @@ class QuestionRequest(BaseModel):
 
 class SourceResult(BaseModel):
     chunk_id: str
-    document: str
-    policy_id: str
-    section: str
-    pages: list
+    document: Optional[str] = None
+    policy_id: Optional[str] = None
+    section: Optional[str] = None
+    pages: List = Field(default_factory=list)
     text: str
     tfidf_score: float
     embedding_score: float
@@ -103,7 +105,7 @@ class SourceResult(BaseModel):
 
 class AskResponse(BaseModel):
     answer: str
-    sources: list
+    sources: List = Field(default_factory=list)
     insufficient_evidence: bool
 
 
@@ -179,16 +181,21 @@ FRONTEND_DIR = ROOT / "frontend"
 
 if FRONTEND_DIR.exists():
     # Mount CSS and JS subdirectories
-    app.mount(
-        "/css",
-        StaticFiles(directory=str(FRONTEND_DIR / "css")),
-        name="css",
-    )
-    app.mount(
-        "/js",
-        StaticFiles(directory=str(FRONTEND_DIR / "js")),
-        name="js",
-    )
+    css_dir = FRONTEND_DIR / "css"
+    if css_dir.exists():
+        app.mount(
+            "/css",
+            StaticFiles(directory=str(css_dir)),
+            name="css",
+        )
+
+    js_dir = FRONTEND_DIR / "js"
+    if js_dir.exists():
+        app.mount(
+            "/js",
+            StaticFiles(directory=str(js_dir)),
+            name="js",
+        )
 
     # Serve assets if they exist
     assets_dir = FRONTEND_DIR / "assets"
@@ -200,6 +207,7 @@ if FRONTEND_DIR.exists():
         )
 
     @app.get("/")
+    @app.get("/index.html")
     async def serve_frontend():
         """Serve the main frontend application."""
         index_path = FRONTEND_DIR / "index.html"
@@ -213,18 +221,19 @@ if FRONTEND_DIR.exists():
 # ---------------------------------------------------------
 
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))
     print("=" * 60)
     print("  CareAssist — Hospital Policy Knowledge Assistant")
     print("=" * 60)
     print(f"  Documents indexed : {count_documents()}")
-    print(f"  API              : http://localhost:8000/api/ask")
-    print(f"  Frontend         : http://localhost:8000")
+    print(f"  API              : http://localhost:{port}/api/ask")
+    print(f"  Frontend         : http://localhost:{port}")
     print("=" * 60)
 
     uvicorn.run(
         "api:app",
         host="0.0.0.0",
-        port=8000,
+        port=port,
         reload=False,
         log_level="info",
     )
